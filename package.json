@@ -1,0 +1,26 @@
+{
+  "name": "soillife",
+  "version": "1.0.0",
+  "description": "soillife",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielwang405/SoilLife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielwang405/SoilLife/issues"
+  },
+  "homepage": "https://github.com/danielwang405/SoilLife#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
