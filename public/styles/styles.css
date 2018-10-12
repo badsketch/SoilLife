@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'acremedium';
+    src: url("./Acre-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* COLORS */
+:root {
+    --food-color: #ee6a7c
+}
+
+* {
+    font-family: acremedium;
+    letter-spacing: 1px;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

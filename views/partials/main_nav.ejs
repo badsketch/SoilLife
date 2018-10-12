@@ -1,0 +1,108 @@
+<style>
+        .navbar {
+            width: 100%;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .blue {
+            border: 1px solid blue;
+        }
+        
+        .green {
+            border: 1px solid green;
+        }
+        
+        .nav-item {
+            display: flex;
+            padding: 15px 15px 5px 15px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        
+        #logo {
+            height: 50px;
+            padding-left: 5px;
+        
+        }
+        
+        .social-media {
+            padding-right: 9px;
+        }
+        .social-media-logo {
+            height: 24px;
+            padding: 17px 0px;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            flex-direction: column;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #5D5152;
+            padding: 12px 16px;
+            text-decoration: none;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        </style>
+<div class="navbar <%= color %>">
+    <div>
+        <a href="/"><img id="logo" src="imgs/shared/logo.jpg"></a>
+    </div>
+
+    <div class="dropdown">
+        <a class="nav-item" href="test">soils 101</a>
+        <div class="dropdown-content">
+            <a href="./soils101/soilgenesis.html">soil genesis</a>
+            <a href="./soils101/soilhabitat.html">soil habitat</a>
+            <a href="./soils101/soilbiology.html">soil biology</a>
+            <a href="./soils101/soilchemistry.html">soil chemistry</a>
+            <a href="./soils101/soilnutrition.html">soil nutrition</a>
+            <a href="./soils101/soilhealth.html">soil health</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a class="nav-item">web of soil</a>
+        <div class="dropdown-content">
+                <a href="./wos/food.html">food</a>
+                <a href="./wos/fiber.html">fiber</a>
+                <a href="./wos/filter.html">filter</a>
+                <a href="./wos/foundation.html">foundation</a>
+                <a href="./wos/farmaceuticals.html">farmaceuticals</a>
+                <a href="./wos/fun.html">fun</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a class="nav-item">media</a>
+    </div>
+
+    <div class="dropdown">
+        <a class="nav-item">get involved</a>
+    </div>
+
+    <div class="dropdown">
+        <a class="nav-item">about us</a>
+    </div>
+    
+    <div class="social-media">
+            <a href="https://www.facebook.com/TheSoilLife/"><img class="social-media-logo" src="imgs/shared/facebook.svg"></a>
+            <a href="https://www.instagram.com/soil.life"><img class="social-media-logo" src="imgs/shared/instagram.svg"></a>
+            <a href="https://twitter.com/the_Soil_Life"><img class="social-media-logo" src="imgs/shared/twitter.svg"></a>
+    </div>
+</div>
+
