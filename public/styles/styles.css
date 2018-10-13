@@ -20,3 +20,41 @@ html, body {
     margin: 0px;
     box-sizing: border-box;
 }
+
+#intro {
+    background-image: url('../imgs/main/HeaderPhoto.jpg');
+    background-size: cover;
+}
+
+.jumbotron {
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+.jumbo-text {
+    line-height: .8;
+    color: white;
+    font-size: 8vh;
+    margin: 0px;
+}
+
+.jumbo-sub {
+    display: inline-block;
+    padding: 11px;
+    width: 60%;
+    color: white;
+    font-size: 3vh;
+    background-color: var(--food-color);
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron{
+        text-align: center;
+        top:10%;
+        left: unset;
+    }
+    .jumbo-text {
+        font-size: 6vh
+    }
+}
