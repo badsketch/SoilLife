@@ -7,7 +7,6 @@
         <script type="text/javascript" src="/scripts/fullpage.js"></script>
     </head>
     <body>
-
     <div id="fullpage">
         <div class="section" id="intro">
                 <%- include('../partials/main_nav'); %>
@@ -17,6 +16,7 @@
                 </div>
         </div>
 
+        <!-- HEALTHY SOILS -->
         <div class="section">
             <div class="slide">
                 <video id="soil-circle" width="80%" height="80%" data-autoplay loop muted>
@@ -151,6 +151,20 @@
                 </div>
             </div>
         </div>
+
+        <!--6FS-->
+        <div class="section">
+            <div class="sixf-container">
+
+                <img id="sixf-icon" src="/imgs/sixF/sixfs-food.svg">
+                <div class="sixf-text">soils are fundamental to life on Earth.</div>
+                <div class="sixf-text">if you <span id="sixf-change-text">eat food</span>, you depend on soil.</div>
+                <br>
+                <br>
+                <br>
+                <a id="sixf-link" href="/food">find out how!</a>
+            </div>
+        </div>
     </div>
     <script>
             new fullpage('#fullpage', {
@@ -160,6 +174,7 @@
                 autoScrolling:true,
                 scrollHorizontally: true
             });
-        </script>
+    </script>
+    <script type="text/javascript" src="/scripts/sixfs.js"></script>
     </body>
 </html>
