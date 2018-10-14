@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+/* CENTERING SLIDE NAV */
+.fp-slidesNav {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* COLORS */
 :root {
     --food-color: #ee6a7c
@@ -56,5 +62,87 @@ html, body {
     }
     .jumbo-text {
         font-size: 6vh
+    }
+}
+
+
+/* HEALTHY SOILS */
+#soil-circle {
+    display: block;
+    margin: 0 auto;
+}
+
+.soil-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.soil-desc {
+    width: 35vw;
+    height: 100vh;
+}
+
+.soil-desc img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.soil-desc p {
+    text-align: left;
+    padding: 30% 16%;
+    font-size: 1.2em;
+    line-height: 130%;
+}
+
+.soil-img {
+    width: 65w;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.soil-img img {
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #soil-circle {
+        height: 90%;
+        width: 90%;
+    }
+    .soil-container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .soil-desc {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .soil-desc img {
+        width: 40vw;
+    }
+    .soil-desc p {
+        text-align: center;
+        padding: 10vh 12vw;
+        font-size: 1em;
+        line-height: unset;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .soil-img {
+        width: 100vw;
+        height: unset;
+        overflow: visible;
+    }
+
+    .soil-img img {
+        width: 100%;
+        height: unset;
     }
 }
