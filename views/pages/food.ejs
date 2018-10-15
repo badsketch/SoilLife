@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/sixf.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/fullpage.css" />
+        <script type="text/javascript" src="/scripts/fullpage.js"></script>
+    </head>
+    <body>
+        
+        <div class="nav">
+            <%- include('../partials/main_nav') %>
+            <%- include('../partials/secondary_nav', {sixf: 'food'}) %>
+        </div>
+        <div id="fullpage">
+            <div class="section">
+                stuff
+            </div>
+            <div class="section">
+                other
+            </div>
+        </div>>
+        <script>
+                new fullpage('#fullpage', {
+                    //options here
+                    navigation: true,
+                    slidesNavigation: true,
+                    autoScrolling:true,
+                    scrollHorizontally: true
+                });
+        </script>
+    </body>
+</html>
