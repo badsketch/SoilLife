@@ -26,7 +26,11 @@ html, body {
     margin: 0px;
     box-sizing: border-box;
 }
-
+#fixed-wrapper {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
 #intro {
     background-image: url('../imgs/main/HeaderPhoto.jpg');
     background-size: cover;

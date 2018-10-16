@@ -1,4 +1,33 @@
-.nav {
+@font-face {
+    font-family: 'acremedium';
+    src: url("./Acre-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CENTERING SLIDE NAV */
+.fp-slidesNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* COLORS */
+:root {
+    --food-color: #ee6a7c
+}
+
+* {
+    font-family: acremedium;
+    letter-spacing: 1px;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#fixed-wrapper {
     position: fixed;
     width: 100%;
     z-index: 4;
