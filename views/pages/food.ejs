@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Food</title>
         <link rel="stylesheet" type="text/css" href="/styles/sixf.css" />
         <link rel="stylesheet" type="text/css" href="/styles/fullpage.css" />
         <script type="text/javascript" src="/scripts/fullpage.js"></script>
@@ -18,7 +19,21 @@
             <div class="section">
                 other
             </div>
-        </div>>
+            <div class="section">
+                <div id="name">
+                    Food
+                </div>
+                <svg id="web"></svg>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="modalTable">
+                            <div id="modal-row" style="display: table-row"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script>
                 new fullpage('#fullpage', {
                     //options here
@@ -28,5 +43,7 @@
                     scrollHorizontally: true
                 });
         </script>
+        <script src="/scripts/d3.v4.min.js"></script>
+        <script src="/scripts/wos.js"></script>
     </body>
 </html>
