@@ -186,7 +186,7 @@ d3.json("../wos.json", function (data) {
     function drag(d) {
         d.x = d3.event.x;
         d.y = d3.event.y;
-        console.log("x: ", d.x, "event: ", d3.event.x);
+        //console.log("x: ", d.x, "event: ", d3.event.x);
         }
         
     function end(d) {
@@ -216,10 +216,10 @@ d3.json("../wos.json", function (data) {
     }
 
     function displayModal(path) {
-        var row = document.getElementById("modal_row");
+        var row = document.getElementById("modal-row");
         path.forEach((item) => {
             var block = document.createElement("div");
-            block.className = `modalTableCell-${CATEGORY}`;
+            block.className = `modal-table-cell-${CATEGORY}`;
             block.innerHTML = `<figure>
             <img src="${item.img}" style="width:100px" alt='missing' />
                 <br>
@@ -248,7 +248,7 @@ d3.json("../wos.json", function (data) {
         // Get the modal
         var modal = document.getElementById('modal');
         modal.style.display = "none";
-        var row = document.getElementById("modal_row");
+        var row = document.getElementById("modal-row");
         row.innerHTML = "";
     }
 
