@@ -4,7 +4,7 @@ const IMAGE_SIZE = 60;
 
 var parentDiv = d3.select("#fullpage").node();
 parWidth = parentDiv.getBoundingClientRect().width;
-parHeight = parentDiv.getBoundingClientRect().height/2;
+parHeight = parentDiv.getBoundingClientRect().height * .7;
 
 
 var svg = d3.select("#web")

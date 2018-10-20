@@ -39,6 +39,18 @@ html, body {
     background-repeat: no-repeat;
 }
 
+#name {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    text-align: center;
+    font-size: 2em;
+}
+#web {
+    position: absolute;
+    bottom: 0px;
+}
+
 /* MODAL */
 #modal {
     display: none;
