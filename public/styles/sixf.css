@@ -44,9 +44,9 @@ html, body {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
     left: 0;
     top: 0;
+    padding-top: 120px;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -62,9 +62,41 @@ html, body {
     width: 80%;
 }
 
+.modal-table{
+    position: relative;
+    bottom: 25px;
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
 .modal-table-cell-Food {
     border: 3px solid rgb(238,106,124,0.5);
     border-radius: 3px;
     display: table-cell;
     width: 500px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure p {
+    font-size: .8em;
+}
+
+.close {
+    position: relative;
+    bottom: 29px;
+    color: #aaaaaa;
+    float: right;
+    font-size: 4em;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
