@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Foundation</title>
         <link rel="stylesheet" type="text/css" href="/styles/sixf.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/fullpage.css" />
+        <script type="text/javascript" src="/scripts/fullpage.js"></script>
 
     </head>
     <body>
@@ -9,7 +12,41 @@
             <%- include('../partials/main_nav') %>
             <%- include('../partials/secondary_nav', {sixf: 'foundation'}) %>
         </div>
-            
-        </div>
+        <div id="fullpage">
+                <div class="section">
+                        stuff
+                </div>
+                <div class="section">
+                        other
+                </div>
+                <div class="section" id="foodWOS">
+                    <div id="name">
+                       <p>Foundation</p>
+                    </div>
+                    <svg id="web"></svg>
+                </div>
+                <div class="section">
+                    flix
+                </div>
+            </div>
+            <div id="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-table">
+                        <div id="modal-row" style="display: table-row"></div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                    new fullpage('#fullpage', {
+                        //options here
+                        navigation: true,
+                        slidesNavigation: true,
+                        autoScrolling:true,
+                        scrollHorizontally: true
+                    });
+            </script>
+            <script src="/scripts/d3.v4.min.js"></script>
+            <script src="/scripts/wos.js"></script>
     </body>
 </html>

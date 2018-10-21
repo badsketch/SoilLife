@@ -13,7 +13,12 @@
 
 /* COLORS */
 :root {
-    --food-color: #ee6a7c
+    --food-color: #ee6a7c;
+    --fiber-color: #fac718;
+    --filter-color: #195ba7;
+    --foundation-color: #544d50;
+    --farmaceuticals-color: #fa6a33;
+    --fun-color: #36ae99;
 }
 
 * {
@@ -26,6 +31,8 @@ html, body {
     margin: 0px;
     box-sizing: border-box;
 }
+
+/* colors */
 
 #fixed-wrapper {
     position: fixed;
@@ -83,12 +90,32 @@ html, body {
     border-spacing: 10px;
 }
 
-.modal-table-cell-Food {
-    border: 3px solid rgb(238,106,124,0.5);
+.modal-table-cell {
     border-radius: 3px;
     display: table-cell;
     width: 500px;
 }
+
+.bdr-Food {
+    border: 3px solid  rgb(238,106,124,0.5);
+}
+.bdr-FiberFuel {
+    border: 3px solid  rgb(250,199,24,0.5);
+}
+.bdr-Filter {
+    border: 3px solid  rgb(25,91,167,0.5);
+}
+.bdr-Foundation {
+    border: 3px solid  rgb(84,77,80,0.5);
+}
+.bdr-Farmaceuticals {
+    border: 3px solid  rgb(250,106,51,0.5);
+}
+.bdr-Fun {
+    border: 3px solid  rgb(54,174,153,0.5);
+}
+
+
 
 figure {
     text-align: center;
