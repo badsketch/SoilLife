@@ -92,6 +92,10 @@ d3.json("../wos.json", function (data) {
         .on("mouseleave", (d) => {
             link.attr("stroke-width", 1);
         })
+        .call(d3.drag()
+        .on("start", start)
+        .on("drag", drag)
+        .on("end", end));
 
         
     /* add images */
@@ -138,10 +142,6 @@ d3.json("../wos.json", function (data) {
             var modal = document.getElementById('modal');
             modal.style.display = "block";        
         })
-        .call(d3.drag()
-        .on("start", start)
-        .on("drag", drag)
-        .on("end", end));
 
 
     simulation.nodes(node_data)
@@ -179,20 +179,16 @@ d3.json("../wos.json", function (data) {
 
     function start(d) {
         if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-        // d.fx = d.x;
-        // d.fy = d.y;
         }
         
     function drag(d) {
         d.x = d3.event.x;
         d.y = d3.event.y;
-        //console.log("x: ", d.x, "event: ", d3.event.x);
         }
         
     function end(d) {
         if (!d3.event.active) simulation.alphaTarget(0);
-        // d.fx = null;
-        // d.fy = null;
+
         }
 
     function update(d) {
