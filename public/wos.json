@@ -357,7 +357,127 @@
                 "name": "Bottled Water",
                 "img": "./imgs/sixf/wos/Filter/Bottled_Water.png", 
                 "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
-            }
+            },
+            {
+                "name": "Carbon Storage",
+                "img": "./imgs/sixf/wos/Filter/Carbon_Storage.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Drainfield",
+                "img": "./imgs/sixf/wos/Filter/Drainfield.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Evaporation",
+                "img": "./imgs/sixf/wos/Filter/Evaporation.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Fish In Market",
+                "img": "./imgs/sixf/wos/Filter/Fish_In_Market.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Fish In Water",
+                "img": "./imgs/sixf/wos/Filter/Fish_In_Water.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Flood Prevention",
+                "img": "./imgs/sixf/wos/Filter/Flood_Prevention.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Forests",
+                "img": "./imgs/sixf/wos/Filter/Forests.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Fresh Air",
+                "img": "./imgs/sixf/wos/Filter/Fresh_Air.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Grass Roots",
+                "img": "./imgs/sixf/wos/Filter/Grass_Roots.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Grasslands/Savannah",
+                "img": "./imgs/sixf/wos/Filter/Grasslands_Savannah.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Mangrove",
+                "img": "./imgs/sixf/wos/Filter/Mangrove.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Marshes",
+                "img": "./imgs/sixf/wos/Filter/Marshes.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Methane",
+                "img": "./imgs/sixf/wos/Filter/Methane.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Oxygen",
+                "img": "./imgs/sixf/wos/Filter/Oxygen.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Permafrost",
+                "img": "./imgs/sixf/wos/Filter/Permafrost.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Plants",
+                "img": "./imgs/sixf/wos/Foundation/Plants.png", 
+                "description": "Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc" 
+              },
+              {
+                "name": "Photosynthesis",
+                "img": "./imgs/sixf/wos/Filter/Plants_Photosynthesis.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Roots",
+                "img": "./imgs/sixf/wos/Filter/roots.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Salt Flats",
+                "img": "./imgs/sixf/wos/Filter/Salt_Flats.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Sea Salt",
+                "img": "./imgs/sixf/wos/Filter/Sea_Salt.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Septic Systems",
+                "img": "./imgs/sixf/wos/Filter/Septic_Systems.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Septic Tank",
+                "img": "./imgs/sixf/wos/Filter/Septic_Tank.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Trees",
+                "img": "./imgs/sixf/wos/Filter/Trees.png", 
+                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
+              },
+              {
+                "name": "Tundra",
+                "img": "./imgs/sixf/wos/Filter/Tundra.png",
+                "description": "desc desc desc"
+              }
         ],
         "Food": [
             {
@@ -678,11 +798,55 @@
         ],
         "Filter": [
             {"source": "Soil", "target": "Microbe"},
+            {"source": "Microbe", "target": "Aquifer"},
             {"source": "Soil", "target": "Clay"},
             {"source": "Clay", "target": "Aquifer"},
-            {"source": "Microbe", "target": "Aquifer"},
-            {"source": "Aquifer", "target": "Public Water"},
-            {"source": "Public Water", "target": "Bottled Water"}
+            {"source": "Aquifer", "target": "Well"},
+            {"source": "Well", "target": "Bottled Water"},
+            {"source": "Soil", "target": "Plants"},
+            {"source": "Soil", "target": "Clay"},
+            {"source": "Soil", "target": "Soil Organic Matter"},
+            {"source": "Plants", "target": "Clean Surface Water"},
+            {"source": "Clay", "target": "Clean Surface Water"},
+            {"source": "Soil Organic Matter", "target": "Clean Surface Water"},
+            {"source": "Clean Surface Water", "target": "Public Water"},
+            {"source": "Public Water", "target": "Bottled Water"},
+            {"source": "Well", "target": "Faucet"},
+            {"source": "Public Water", "target": "Faucet"},
+            {"source": "Well", "target": "Irrigation"},
+            {"source": "Public Water", "target": "Irrigation"},
+            {"source": "Clean Surface Water", "target": "Fish In Water"},
+            {"source": "Fish In Water", "target": "Fish In Market"},
+            {"source": "Plants", "target": "Flood Prevention"},
+            {"source": "Clay", "target": "Flood Prevention"},
+            {"source": "Soil Organic Matter", "target": "Flood Prevention"},
+            {"source": "Microbe", "target": "Septic Tank"},
+            {"source": "Microbe", "target": "Drainfield"},
+            {"source": "Clay", "target": "Drainfield"},
+            {"source": "Drainfield", "target": "Septic Systems"},
+            {"source": "Septic Tank", "target": "Septic Systems"},
+            {"source": "Soil", "target": "Evaporation"},
+            {"source": "Evaporation", "target": "Salt Flats"},
+            {"source": "Salt Flats", "target": "Sea Salt"},
+            {"source": "Salt Flats", "target": "Sea Salt"},
+            {"source": "Microbe", "target": "Oxygen"},
+            {"source": "Plants", "target": "Oxygen"},
+            {"source": "Oxygen", "target": "Fresh Air"},
+            {"source": "Soil", "target": "Permafrost"},
+            {"source": "Permafrost", "target": "Tundra"},
+            {"source": "Soil", "target": "Trees"},
+            {"source": "Trees", "target": "Forests"},
+            {"source": "Soil", "target": "Grass Roots"},
+            {"source": "Grass Roots", "target": "Grasslands/Savannah"},
+            {"source": "Soil", "target": "Roots"},
+            {"source": "Roots", "target": "Mangrove"},
+            {"source": "Soil", "target": "Carbon Storage"},
+            {"source": "Soil", "target": "Methane"},
+            {"source": "Methane", "target": "Marshes"},
+            {"source": "Carbon Storage", "target": "Marshes"}
+
+
+
         ],
         "Farmaceuticals": [
             {"source": "Soil", "target": "Poppy Plant"}
