@@ -43,6 +43,8 @@ d3.json("../wos.json", function (data) {
     
     /* used for tracing to soil */
     function highlight(src, dest) {
+
+        src.direct = true;
         //initialize queue with source
         var queue = [];
         queue.push(src);
@@ -59,15 +61,18 @@ d3.json("../wos.json", function (data) {
                 return path;
             }
 
-            link_data.forEach(function (l) {
-                if (l.target == curr) {
-                    if (!visited.has(l.source)) {
-                        //add to path
-                        visited.add(l.source);
-                        path.push(l.source);
-                        //add to queue
-                        queue.push(l.source);
+            link_data.forEach(function (link) {
+                if (link.target == curr) {
+                    if (!visited.has(link.source)) {
+                        //if there are multiple direct children, then check the number of nodes where direct is true
+                        link.source.direct = curr == src ? true : false
 
+                        //add to path
+                        visited.add(link.source);
+                        path.push(link.source);
+                        //add to queue
+                        queue.push(link.source);
+                        
                     }
                 }
             })
@@ -212,18 +217,41 @@ d3.json("../wos.json", function (data) {
     }
 
     function displayModal(path) {
+        // check if there are multiple children
+        var hasMulti = path.filter(elm =>  elm.direct).length > 2;
         var row = document.getElementById("modal-row");
+
         path.forEach((item) => {
-            var block = document.createElement("div");
-            block.className = `modal-table-cell bdr-${CATEGORY}`;
-            block.innerHTML = `<figure>
-            <img src="${item.img}" style="width:100px" alt='missing' />
-                <br>
-                <h3>${item.name}</h3>
-                <p align="left">${item.description}</p>
-            </figure>
-            `
-            row.appendChild(block);
+            // if there are multiple children then display only the direct descendents of the source
+            // otherwise display all 
+            if ((hasMulti && item.direct) || !hasMulti){
+                var block = document.createElement("div");
+                // clicking direct descendents shows chidren 
+                if (hasMulti && item.direct) {
+                    block.addEventListener("click",() => {
+                        row.innerHTML = "";
+                        displayModal(highlight(item,node_data[0]))
+                    })
+                    // change background on hover 
+                    block.addEventListener("mouseenter",() => {
+                        block.style.background = "#F8F8F8"
+                    })
+                    block.addEventListener("mouseleave", () => {
+                        block.style.background = "white"
+                    })
+                }
+
+                // creates figure cell
+                block.className = `modal-table-cell bdr-${CATEGORY}`;
+                block.innerHTML = `<figure>
+                <img src="${item.img}" style="width:100px" alt='missing' />
+                    <br>
+                    <h3>${item.name}</h3>
+                    <p align="left">${item.description}</p>
+                </figure>
+                `
+                row.appendChild(block);
+            }
         });
         
     }
