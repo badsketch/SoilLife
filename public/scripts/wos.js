@@ -1,5 +1,5 @@
 const CATEGORY = document.title
-const IMAGE_SIZE = 60;
+const IMAGE_SIZE = "40";
 
 
 var parentDiv = d3.select("#fullpage").node();
@@ -18,11 +18,11 @@ var svg = d3.select("#web")
         .id(function (d) {
             return d.name;
         })
-        .distance(25)
-        .strength(1))
-    .force("collide", d3.forceCollide(50))
+        .distance(10)
+        .strength(2))
+    .force("collide", d3.forceCollide(IMAGE_SIZE))
     .force("charge", d3.forceManyBody()
-        .strength(1))
+        .strength(10))
     .force("center", d3.forceCenter(width / 2, height /2))
 
 d3.json("../wos.json", function (data) {

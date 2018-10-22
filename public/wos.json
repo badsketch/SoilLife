@@ -91,215 +91,220 @@
         ],
         "FiberFuel": [
             {
-                "name": "Grass",
-                "img": "./imgs/sixf/wos/FiberFuel/Grass.png", 
-                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
-            },
-            {
-                "name": "Cow",
-                "img": "./imgs/sixf/wos/FiberFuel/Cow.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Plants",
-                "img": "./imgs/sixf/wos/FiberFuel/Plants.png", 
-                "description": "Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc" 
-            },
-            {
-                "name": "Rubber Tree",
-                "img": "./imgs/sixf/wos/FiberFuel/Rubber_Tree.png", 
-                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
-            },
-            {
                 "name": "Bed Sheets",
-                "img": "./imgs/sixf/wos/FiberFuel/Bedsheets.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Rubber Tree",
-                "img": "./imgs/sixf/wos/FiberFuel/Rubber_Tree.png", 
-                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
-            },
-            {
-                "name": "Biofuels",
-                "img": "./imgs/sixf/wos/FiberFuel/Biofuels.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Blue Jeans",
-                "img": "./imgs/sixf/wos/FiberFuel/Blue_Jeans.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Cotton Fiber",
-                "img": "./imgs/sixf/wos/FiberFuel/Cotton_Fiber.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Cotton",
-                "img": "./imgs/sixf/wos/FiberFuel/Cotton.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Couch",
-                "img": "./imgs/sixf/wos/FiberFuel/Couch.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Fire",
-                "img": "./imgs/sixf/wos/FiberFuel/Fire.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Flag",
-                "img": "./imgs/sixf/wos/FiberFuel/Flag.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Flax Plant",
-                "img": "./imgs/sixf/wos/FiberFuel/Flax_Plant.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Hemp Plant",
-                "img": "./imgs/sixf/wos/FiberFuel/Hemp_Plant.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Jute Plant",
-                "img": "./imgs/sixf/wos/FiberFuel/Jute_Plant.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Jute",
-                "img": "./imgs/sixf/wos/FiberFuel/Jute.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Leather Shoes",
-                "img": "./imgs/sixf/wos/FiberFuel/Leather_Shoes.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Leather",
-                "img": "./imgs/sixf/wos/FiberFuel/Leather.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Newspaper",
-                "img": "./imgs/sixf/wos/FiberFuel/Newspaper.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Paper",
-                "img": "./imgs/sixf/wos/FiberFuel/Paper.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Plants",
-                "img": "./imgs/sixf/wos/FiberFuel/Plants.png", 
-                "description": "Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc Plants desc" 
-            },
-            {
-                "name": "Rope",
-                "img": "./imgs/sixf/wos/FiberFuel/Rope.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Rubber Sole",
-                "img": "./imgs/sixf/wos/FiberFuel/Rubber_Sole.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Sheep",
-                "img": "./imgs/sixf/wos/FiberFuel/Sheep.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Silicon Chips",
-                "img": "./imgs/sixf/wos/FiberFuel/Silicon_Chips.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Sand",
-                "img": "./imgs/sixf/wos/FiberFuel/Sand.png", 
-                "description": "Sand desc Sand desc Sand desc Sand desc Sand desc Sand desc Sand desc Sand desc Sand desc Sand desc" 
-            },
-            {
-                "name": "Sneakers",
-                "img": "./imgs/sixf/wos/FiberFuel/Sneakers.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Solar Panels",
-                "img": "./imgs/sixf/wos/FiberFuel/Solar_Panels.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Soybean Oil",
-                "img": "./imgs/sixf/wos/FiberFuel/Soybean_Oil.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Soybean",
-                "img": "./imgs/sixf/wos/FiberFuel/Soybean.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Teddy Bear",
-                "img": "./imgs/sixf/wos/FiberFuel/Teddy_Bear.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Towels",
-                "img": "./imgs/sixf/wos/FiberFuel/Towels.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "White T Shirt",
-                "img": "./imgs/sixf/wos/FiberFuel/White_T_Shirt.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Wood",
-                "img": "./imgs/sixf/wos/FiberFuel/Wood.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Wool Sweater",
-                "img": "./imgs/sixf/wos/FiberFuel/Wool_Sweater.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Wool",
-                "img": "./imgs/sixf/wos/FiberFuel/Wool.png", 
-                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
-            },
-            {
-                "name": "Cotton Plant",
-                "img": "./imgs/sixf/wos/FiberFuel/CottonPlant.png", 
-                "description": "CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc CottonPlant desc" 
-            },
-            {
-                "name": "Trees",
-                "img": "./imgs/sixf/wos/FiberFuel/Trees.png", 
-                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
-            },
-            {
-                "name": "Flax Fiber",
-                "img": "./imgs/sixf/wos/FiberFuel/Flax_Fiber.png", 
-                "description": "cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc" 
-            },
-            {
-                "name": "Hemp Fiber",
-                "img": "./imgs/sixf/wos/FiberFuel/Hemp_Fiber.png", 
-                "description": "cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc" 
-            },
-            {
+                "img": "./imgs/sixf/wos/FiberFuel/Bed_Sheets.png",
+                "description": "desc desc desc"
+              },
+              {
                 "name": "Biodiesel",
-                "img": "./imgs/sixf/wos/FiberFuel/Biodiesel.png", 
-                "description": "cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc cement desc" 
-            }
+                "img": "./imgs/sixf/wos/FiberFuel/Biodiesel.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Biofuels",
+                "img": "./imgs/sixf/wos/FiberFuel/Biofuels.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Blue Jeans",
+                "img": "./imgs/sixf/wos/FiberFuel/Blue_Jeans.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Burial/Heat/Pressure",
+                "img": "./imgs/sixf/wos/FiberFuel/Burial_Heat_Pressure.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Coal",
+                "img": "./imgs/sixf/wos/FiberFuel/Coal.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cotton",
+                "img": "./imgs/sixf/wos/FiberFuel/Cotton.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cotton Plant",
+                "img": "./imgs/sixf/wos/FiberFuel/Cotton_Plant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cotton Fiber",
+                "img": "./imgs/sixf/wos/FiberFuel/Cotton_Fiber.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Couch",
+                "img": "./imgs/sixf/wos/FiberFuel/Couch.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cow",
+                "img": "./imgs/sixf/wos/FiberFuel/Cow.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Dead Plants/Animals",
+                "img": "./imgs/sixf/wos/FiberFuel/Dead_Plants_Animals.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Fire",
+                "img": "./imgs/sixf/wos/FiberFuel/Fire.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Flag",
+                "img": "./imgs/sixf/wos/FiberFuel/Flag.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Flax Fiber",
+                "img": "./imgs/sixf/wos/FiberFuel/Flax_Fiber.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Flax Plant",
+                "img": "./imgs/sixf/wos/FiberFuel/Flax_Plant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Gas",
+                "img": "./imgs/sixf/wos/FiberFuel/Gas.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Hemp Fiber",
+                "img": "./imgs/sixf/wos/FiberFuel/Hemp_Fiber.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Hemp Plant",
+                "img": "./imgs/sixf/wos/FiberFuel/Hemp_Plant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Jute",
+                "img": "./imgs/sixf/wos/FiberFuel/Jute.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Jute Plant",
+                "img": "./imgs/sixf/wos/FiberFuel/Jute_Plant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Leather",
+                "img": "./imgs/sixf/wos/FiberFuel/Leather.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Leather Shoes",
+                "img": "./imgs/sixf/wos/FiberFuel/Leather_Shoes.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Newspaper",
+                "img": "./imgs/sixf/wos/FiberFuel/Newspaper.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Paper",
+                "img": "./imgs/sixf/wos/FiberFuel/Paper.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Peat Bog",
+                "img": "./imgs/sixf/wos/FiberFuel/Peat_Bog.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Petroleum",
+                "img": "./imgs/sixf/wos/FiberFuel/Petroleum.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Plants",
+                "img": "./imgs/sixf/wos/FiberFuel/Plants.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Plastic",
+                "img": "./imgs/sixf/wos/FiberFuel/Plastic.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Pulp",
+                "img": "./imgs/sixf/wos/FiberFuel/Pulp.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Rope",
+                "img": "./imgs/sixf/wos/FiberFuel/Rope.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Rubber Sole",
+                "img": "./imgs/sixf/wos/FiberFuel/Rubber_Sole.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Rubber Tree",
+                "img": "./imgs/sixf/wos/FiberFuel/Rubber_Tree.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Sheep",
+                "img": "./imgs/sixf/wos/FiberFuel/Sheep.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Sneakers",
+                "img": "./imgs/sixf/wos/FiberFuel/Sneakers.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Soybean",
+                "img": "./imgs/sixf/wos/FiberFuel/Soybean.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Soybean Oil",
+                "img": "./imgs/sixf/wos/FiberFuel/Soybean_Oil.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Synthetic Fibers",
+                "img": "./imgs/sixf/wos/FiberFuel/Synthetic_Fibers.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Trees",
+                "img": "./imgs/sixf/wos/FiberFuel/Trees.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "White T-Shirt",
+                "img": "./imgs/sixf/wos/FiberFuel/White_T_Shirt.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Wood",
+                "img": "./imgs/sixf/wos/FiberFuel/Wood.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Wool",
+                "img": "./imgs/sixf/wos/FiberFuel/Wool.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Wool Sweater",
+                "img": "./imgs/sixf/wos/FiberFuel/Wool_Sweater.png",
+                "description": "desc desc desc"
+              }
 
         ],
         "Filter": [
@@ -683,19 +688,14 @@
             {"source": "Soil", "target": "Poppy Plant"}
         ],
         "FiberFuel": [
-            {"source": "Soil", "target": "Grass"},
             {"source": "Soil", "target": "Cotton Plant"},
             {"source": "Cotton Plant", "target": "Cotton"},
-            {"source": "Cotton", "target": "White T Shirt"},
+            {"source": "Cotton", "target": "White T-Shirt"},
             {"source": "Cotton", "target": "Blue Jeans"},
-            {"source": "Cotton", "target": "Teddy Bear"},
-            {"source": "Cotton", "target": "Bed Sheets"},
             {"source": "Soil", "target": "Jute Plant"},
             {"source": "Jute Plant", "target": "Jute"},
-            {"source": "Jute", "target": "Towels"},
-            {"source": "Soil", "target": "Plants"},
-            {"source": "Soil", "target": "Sand"},
-            {"source": "Grass", "target": "Cow"},
+            {"source": "Jute", "target": "Bed Sheets"},
+            {"source": "Soil", "target": "Cow"},
             {"source": "Cow", "target": "Leather"},
             {"source": "Leather", "target": "Leather Shoes"},
             {"source": "Soil", "target": "Sheep"},
@@ -704,11 +704,15 @@
             {"source": "Soil", "target": "Rubber Tree"},
             {"source": "Rubber Tree", "target": "Rubber Sole"},
             {"source": "Rubber Sole", "target": "Sneakers"},
+            {"source": "Soil", "target": "Cotton Plant"},
             {"source": "Cotton Plant", "target": "Cotton Fiber"},
             {"source": "Cotton Fiber", "target": "Couch"},
             {"source": "Soil", "target": "Trees"},
             {"source": "Trees", "target": "Wood"},
             {"source": "Wood", "target": "Couch"},
+            {"source": "Trees", "target": "Pulp"},
+            {"source": "Pulp", "target": "Paper"},
+            {"source": "Paper", "target": "Newspaper"},
             {"source": "Soil", "target": "Flax Plant"},
             {"source": "Flax Plant", "target": "Flax Fiber"},
             {"source": "Flax Fiber", "target": "Flag"},
@@ -719,10 +723,17 @@
             {"source": "Soybean", "target": "Soybean Oil"},
             {"source": "Soybean Oil", "target": "Biodiesel"},
             {"source": "Biodiesel", "target": "Biofuels"},
-            {"source": "Sand", "target": "Silicon Chips"},
-            {"source": "Silicon Chips", "target": "Solar Panels"},
-            {"source": "Trees", "target": "Wood"},
-            {"source": "Wood", "target": "Fire"}
+            {"source": "Soil", "target": "Plants"},
+            {"source": "Plants", "target": "Peat Bog"},
+            {"source": "Peat Bog", "target": "Burial/Heat/Pressure"},
+            {"source": "Burial/Heat/Pressure", "target": "Coal"},
+            {"source": "Wood", "target": "Fire"},
+            {"source": "Soil", "target": "Dead Plants/Animals"},
+            {"source": "Dead Plants/Animals", "target": "Burial/Heat/Pressure"},
+            {"source": "Burial/Heat/Pressure", "target": "Petroleum"},
+            {"source": "Petroleum", "target": "Gas"},
+            {"source": "Petroleum", "target": "Plastic"},
+            {"source": "Petroleum", "target": "Synthetic Fibers"}
         ],
         "Foundation": [
             {"source": "Soil", "target": "Cement"},       
