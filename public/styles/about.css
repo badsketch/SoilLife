@@ -31,11 +31,55 @@ html, body {
     background-color: #e8e8e8
 }
 
-
-/* OUR VALUES*/
 p{
     font-size: 12px;
 }
+
+/* OUR MISSION */
+#our-mission .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#our-mission .column {
+    flex: 27%;
+    max-width: 27%;
+    padding: 0 10px;
+}
+
+#our-mission #card1 {
+    position: relative;
+    bottom: 50%;
+}
+
+#our-mission #card3 {
+    position: relative;
+    top: 50%;
+}
+
+#our-mission .card{
+    margin-top: 20px;
+    vertical-align: middle;
+    text-align:center;
+    background-color: white;
+    padding: 10px;
+}
+
+#our-mission .card h5 {
+    color: pink;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    #our-mission .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* OUR VALUES*/
 
 #our-values .row {
     display: flex;
@@ -67,7 +111,3 @@ p{
     }
 }
 
-
-#our-mission .card{
-    background-color: pink;
-}
