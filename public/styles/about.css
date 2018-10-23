@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'acremedium';
+    src: url("./Acre-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CENTERING SLIDE NAV */
+.fp-slidesNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+* {
+    font-family: acremedium;
+    letter-spacing: 1px;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#fixed-wrapper {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.slide {
+    background-color: #e8e8e8
+}
+
+
+/* OUR VALUES*/
+p{
+    font-size: 12px;
+}
+
+#our-values .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#our-values .column {
+    flex: 27%;
+    max-width: 27%;
+    padding: 0 10px;
+}
+#our-values .card{
+    margin-top: 20px;
+    vertical-align: middle;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#our-values .card h5 {
+    color: yellow;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    #our-values .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+#our-mission .card{
+    background-color: pink;
+}
