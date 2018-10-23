@@ -31,8 +31,28 @@ html, body {
     background-color: #e8e8e8
 }
 
+.card {
+    background-color:white;
+}
 p{
     font-size: 12px;
+}
+
+/* OUT STORY */
+#our-story .card {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    #our-story .card {
+        width: 70%;
+        height: unset;
+        padding: 20px;
+    }
 }
 
 /* OUR MISSION */
@@ -62,7 +82,6 @@ p{
     margin-top: 20px;
     vertical-align: middle;
     text-align:center;
-    background-color: white;
     padding: 10px;
 }
 
@@ -95,7 +114,6 @@ p{
 #our-values .card{
     margin-top: 20px;
     vertical-align: middle;
-    background-color: lightblue;
     padding: 10px;
 }
 
