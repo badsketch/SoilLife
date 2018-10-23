@@ -97,6 +97,23 @@ p{
     }
 }
 
+/* OUR VISION */
+
+#our-vision .card {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    #our-vision .card {
+        width: 70%;
+        height: unset;
+        padding: 20px;
+    }
+}
 
 /* OUR VALUES*/
 
