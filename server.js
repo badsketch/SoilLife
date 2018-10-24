@@ -33,6 +33,9 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 })
 
-// app.listen(3000);
+var port = process.env.PORT || 8080;
+app.listen(port, function() {
+    console.log('Our app is running');
+});
 
 // console.log('listening on port 3000...')
