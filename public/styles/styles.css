@@ -26,20 +26,32 @@ html, body {
     margin: 0px;
     box-sizing: border-box;
 }
+
+/* ARROWS */
+.arrow {
+    height: 50px;
+    width: 80px; 
+}
+
 #fixed-wrapper {
     position: fixed;
     z-index: 3;
     width: 100%;
 }
 #intro {
-    background-image: url('../imgs/main/HeaderPhoto.jpg');
+    background-image:     linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),url('../imgs/main/HeaderPhoto.jpg');
     background-size: cover;
 }
 
 .jumbotron {
     position: relative;
-    top: 20%;
-    left: 20%;
+    top: 25vh;
+    display: block;
+    margin: 0 auto;
+    width: 50vw;
 }
 
 .jumbo-text {
@@ -51,11 +63,19 @@ html, body {
 
 .jumbo-sub {
     display: inline-block;
-    padding: 11px;
-    width: 60%;
+    padding: 10px;
     color: white;
+    width: 100%;
     font-size: 3vh;
     background-color: var(--food-color);
+}
+
+.jumbo-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
