@@ -9,6 +9,12 @@
 .fp-slidesNav {
     display: flex;
     justify-content: space-around;
+    color: white;
+}
+
+/* CHANGING SLIDE NAV COLOR TO WHITE*/
+.fp-slidesNav ul li a span:nth-child(2) {
+    background: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -40,7 +46,18 @@ html, body {
 }
 
 .slide {
-    background-color: #e8e8e8
+    /* background-color: #e8e8e8; */
+    background-image: url('/imgs/about/Fungi_Tree.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+#our-values {
+    /* background-color: #e8e8e8; */
+    background-image: url('/imgs/about/Sunset.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .card {
@@ -101,6 +118,21 @@ p{
     padding: 0 10px;
 }
 
+#our-mission-title {
+    position: relative;
+    bottom: 50%;
+}
+#our-mission-title h5{
+    color: white;
+    margin: 10px 0px;
+}
+
+#our-mission-title .title {
+    font-size: 1.8em;
+    padding-bottom: 15px;
+    color: white;
+}
+
 #our-mission #card1 {
     position: relative;
     bottom: 50%;
@@ -127,6 +159,12 @@ p{
     #our-mission .column {
         flex: 100%;
         max-width: 100%;
+    }
+    
+    #our-mission #card1, #our-mission #card3, #our-mission-title {
+        position: unset;
+        top: unset;
+        bottom: unset;
     }
 }
 
@@ -188,14 +226,28 @@ p{
 }
 
 #our-values .card h5 {
-    color: yellow;
+    color: #ffe05f;
     margin: 10px 0px;
+}
+
+#our-values-title h5 {
+    margin: 0;
+}
+#our-values-title .title {
+    font-size: 1.8em;
+    padding-bottom: 15px;
+    color: #735454
 }
 
 @media screen and (max-width: 600px) {
     #our-values .column {
         flex: 100%;
         max-width: 100%;
+    }
+
+    #our-values .row:nth-child(2) {
+        height: 60vh;
+        overflow: auto;
     }
 }
 
