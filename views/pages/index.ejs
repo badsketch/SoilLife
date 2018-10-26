@@ -16,15 +16,18 @@
                         <h2 class="jumbo-text">we all share<br>common ground.<br></h2>
                         <h3 class="jumbo-sub">get dirty. get connected.</h3>
                     </div>
-                    <a href="#healthy-soils"><img class="arrow jumbo-arrow" src="/imgs/shared/down_arrow_white.svg"></a>            
+                    <a href="#healthy-soils"><img class="down-arrow jumbo-arrow" src="/imgs/shared/down_arrow_white.svg"></a>            
             </div>
 
         <!-- HEALTHY SOILS -->
         <div class="section">
             <div class="slide">
-                <video id="soil-circle" width="80%" height="80%" data-autoplay loop muted>
-                    <source src="/imgs/healthy_soils/soil-wheel-animation.mp4" type="video/mp4">
-                </video>
+                <div class="wrap">
+                    <video id="soil-circle" width="80%" height="80%" data-autoplay loop muted>
+                        <source src="/imgs/healthy_soils/soil-wheel-animation.mp4" type="video/mp4">
+                    </video>
+                    <img class="right-arrow" src="/imgs/shared/right_arrow_pink.svg">
+                </div>
             </div>
             <div class="slide">
                 <div class="soil-container">
@@ -158,7 +161,6 @@
         <!--6FS-->
         <div class="section">
             <div class="sixf-container">
-
                 <img id="sixf-icon" src="/imgs/sixF/sixfs-food.svg">
                 <div class="sixf-text">soils are fundamental to life on Earth.</div>
                 <div class="sixf-text">if you <span id="sixf-change-text">eat food</span>, you depend on soil.</div>
@@ -168,6 +170,32 @@
                 <a id="sixf-link" href="/food">find out how!</a>
             </div>
         </div>
+
+        <!--SOIL GENESIS-->
+        <div class="section">
+            <div class="section-header">Soil Genesis</div>
+            <div id="soil-genesis-container">
+                <video width="50%" height="100%" controls>
+                    <source src="/imgs/main/soil_genesis.mp4" type="video/mp4">
+                </video>
+            </div>
+            <img class="right-arrow" src="/imgs/shared/right_arrow_pink.svg">
+
+        </div>
+
+        <!--SOILS 101-->
+        <div class="section" id="soils101-section">
+            
+        </div>
+
+        <!--GET INVOLVED-->
+        <div class="section" id="get-involved-section">
+            
+        </div>
+        <!--ABOUT US-->
+        <div class="section" id="about-us-section">
+            
+        </div>
     </div>
     <script>
             new fullpage('#fullpage', {
@@ -176,7 +204,7 @@
                 slidesNavigation: true,
                 autoScrolling:true,
                 scrollHorizontally: true,
-                anchors: ['intro', 'healthy-soils', 'six-f']
+                anchors: ['intro-section', 'healthy-soils', 'six-f', 'soil-genesis']
             });
     </script>
     <script type="text/javascript" src="/scripts/sixfs.js"></script>

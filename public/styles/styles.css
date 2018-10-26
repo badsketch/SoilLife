@@ -28,9 +28,20 @@ html, body {
 }
 
 /* ARROWS */
-.arrow {
+.down-arrow {
     height: 50px;
     width: 80px; 
+}
+
+.right-arrow {
+    height: 80px;
+    width: 80px;
+}
+
+/* GENERAL */
+.section-header {
+    font-size: 5vh;
+    text-align: center;
 }
 
 #fixed-wrapper {
@@ -39,7 +50,7 @@ html, body {
     width: 100%;
 }
 #intro {
-    background-image:     linear-gradient(
+    background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),url('../imgs/main/HeaderPhoto.jpg');
@@ -91,6 +102,10 @@ html, body {
 
 
 /* HEALTHY SOILS */
+.wrap {
+    position: relative;
+}
+
 #soil-circle {
     display: block;
     margin: 0 auto;
@@ -177,10 +192,10 @@ html, body {
 }
 
 .sixf-container img {
-    height: 30vh;
+    height: 25vh;
 }
 .sixf-text {
-    font-size: 7vh;
+    font-size: 5vh;
 }
 
 #sixf-change-text {
@@ -203,4 +218,35 @@ html, body {
     #sixf-link {
         font-size: 4vw;
     }
+}
+
+/* SOIL GENESIS */
+
+#soil-genesis-container {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+#soil-genesis-container video {
+    display: inline-block;
+}
+
+#soil-genesis-container .col {
+    display: inline-block;
+}
+
+/* SOILS 101 */
+#soils101-section {
+    background-image: url("../imgs/soils101/soils101.jpg");
+    background-size: cover;
+}
+/* GET INVOLVED */
+#get-involved-section {
+    background-image: url("../imgs/get_involved/get-involved.jpg");
+    background-size: cover;
+}
+#about-us-section {
+    background-image: url("../imgs/about/about-us.jpg");
+    background-size: cover;
 }
