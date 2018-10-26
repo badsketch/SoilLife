@@ -220,20 +220,23 @@ html, body {
     }
 }
 
-/* SOIL GENESIS */
-
-#soil-genesis-container {
+/* MEDIA HUB */
+/* TODO: MAKE RESPONSIVE */
+#media-hub-container {
     height: 50%;
     width: 100%;
     text-align: center;
 }
 
-#soil-genesis-container video {
+#media-hub-container video {
     display: inline-block;
 }
 
-#soil-genesis-container .col {
-    display: inline-block;
+#media-hub-container .right-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -40px;
 }
 
 /* SOILS 101 */ 
