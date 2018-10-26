@@ -236,17 +236,56 @@ html, body {
     display: inline-block;
 }
 
-/* SOILS 101 */
-#soils101-section {
-    background-image: url("../imgs/soils101/soils101.jpg");
+/* SOILS 101 */ 
+/* TODO: MAKE RESPONSIVE */
+
+#soils101-container {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),url("../imgs/soils101/soils101.jpg");
     background-size: cover;
+    background-position: center 40%;
+    height: 100vh;
 }
+
+#text-left {
+    color: white;
+    font-size: 5.5vh;
+    display: inline-block;
+    position: relative;
+    left: 17%;
+    top: 51%;
+}
+
+#text-right {
+    color: white;
+    font-size: 6.5vh;
+    display: inline-block;
+    position: relative;
+    top: 68%;
+    left: 39%;
+    font-weight: bolder;
+}
+
+#soils101-container .link {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
 /* GET INVOLVED */
 #get-involved-section {
     background-image: url("../imgs/get_involved/get-involved.jpg");
-    background-size: cover;
+    /* background-size: cover; */
+    background-size:cover;
+    background-position: center center;
+    /* background-repeat: no-repeat */
 }
 #about-us-section {
     background-image: url("../imgs/about/about-us.jpg");
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+    
 }
