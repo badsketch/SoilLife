@@ -13,7 +13,8 @@
 
 /* COLORS */
 :root {
-    --food-color: #ee6a7c
+    --food-color: #ee6a7c;
+    --fun-color: #36ae99;
 }
 
 * {
@@ -292,4 +293,49 @@ html, body {
     background-position: center center;
     background-repeat: no-repeat
     
+}
+
+/* FOOTER */
+/* TODO: MAKE RESPONSIVE */
+#footer-container {
+    height:23vh;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-text {
+    color: var(--fun-color);
+    font-size: 2.5vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4vh;
+}
+
+#social-media {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 0vh 4vh 4vh;
+    justify-content: space-between;
+}
+
+#social-media-text {
+    font-size: 3vh;
+    background-color: var(--food-color); 
+    color: white;
+    width: 100%;
+    font-weight: bolder;
+    padding: 4px;
+}
+#footer-icons img {
+    height: 2vw;
+}
+
+#footer-icons > div {
+    display: inline-block;
+    margin-left: 2vw;
+    font-size: 2vh;
+    color: var(--food-color);
 }
