@@ -17,7 +17,7 @@ d3.csv('../mediahub.csv', function(error, data) {
 
         var title = document.createElement('h1');
         title.className = "title";
-        title.innerHTML = CATEGORY;
+        title.innerHTML = "Media Hub";
 
         var row = document.createElement('div')
         row.className = "row";
@@ -56,7 +56,7 @@ d3.csv('../mediahub.csv', function(error, data) {
                        var vimeoID = vimeoURL.substr(17);
                        image.src = "https://img.youtube.com/vi/" + videoid[1]+ "/0.jpg";
                     } else { 
-                        image.src = './Media/img/0.jpg';
+                        image.src = './imgs/sixf/filler.jpg';
                     } 
 
                     link.appendChild(image);
