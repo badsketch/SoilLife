@@ -242,12 +242,19 @@ html, body {
     background-repeat: no-repeat;
 }
 
+#title {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    text-align: center;
+    font-size: 2em;
+}
 #name {
     position: absolute;
     width: 100%;
-    top: 15%;
+    top: 19%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 #web {
     position: absolute;
