@@ -33,7 +33,9 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 })
 
-var port = process.env.PORT || 8080;
+app.get('/media', function(req, res) {
+    res.render('pages/media');
+})
 app.listen(port, function() {
     console.log('Our app is running');
 });
