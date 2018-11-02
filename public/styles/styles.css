@@ -43,6 +43,7 @@ html, body {
 .section-header {
     font-size: 5vh;
     text-align: center;
+    margin-bottom: 6vh;
 }
 
 #fixed-wrapper {
@@ -222,14 +223,20 @@ html, body {
 }
 
 /* MEDIA HUB */
-/* TODO: MAKE RESPONSIVE */
 #media-hub-container {
-    height: 50%;
+    height: 100%;
     width: 100%;
     text-align: center;
+    display: table;
 }
 
+#media-hub-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
 #media-hub-container video {
+    width: 60%;
+    height: auto;
     display: inline-block;
 }
 
@@ -239,6 +246,40 @@ html, body {
     top: 50%;
     margin-top: -40px;
 }
+
+#mb-learn {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* remove big arrow and replace with learn more */
+    #media-hub-container .right-arrow {
+        display: none;
+    }
+
+    #media-hub-container video {
+        width: 70%;
+        height: auto;
+        display: inline-block;
+    }
+    #mb-learn {
+        display: block;
+    }
+    #mb-learn p{
+        display: inline-block;
+    }
+    #mb-learn a {
+        text-decoration: none;
+        color: var(--food-color);
+    }
+    
+    #mb-learn img {
+        height: 20px;
+        vertical-align: middle;
+    }
+} 
+
 
 /* SOILS 101 */ 
 /* TODO: MAKE RESPONSIVE */
