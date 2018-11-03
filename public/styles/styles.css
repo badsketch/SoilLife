@@ -468,7 +468,6 @@ html, body {
 
 
 /* FOOTER */
-/* TODO: MAKE RESPONSIVE */
 #footer-container {
     height:23vh;
     display: flex;
@@ -510,4 +509,24 @@ html, body {
     margin-left: 2vw;
     font-size: 2vh;
     color: var(--food-color);
+}
+
+@media screen and (max-width: 600px) {
+    #footer-text {
+        font-size: 1.5vh;
+        margin: 2vh;
+    }
+
+    #social-media {
+        width: 50vw;
+    }
+    #social-media-text {
+        font-size: 2vh;
+    }
+    #footer-icons img {
+        height: 6vw;
+    }
+    #footer-icons > div {
+        margin-left: unset;
+    }
 }
