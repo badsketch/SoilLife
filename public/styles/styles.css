@@ -39,6 +39,35 @@ html, body {
     width: 80px;
 }
 
+/* replace default left/right arrows with pink */
+.fp-controlArrow.fp-prev {
+    left: 0;
+    border: none;
+    width: 55px !important;
+    height: 80px;
+    background: url("/imgs/shared/left_arrow_pink_thick.svg") no-repeat;
+    cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+    right: 0;
+    border: none;
+    width: 55px;
+    height: 80px;
+    background: url("/imgs/shared/right_arrow_pink_thick.svg") no-repeat;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .fp-controlArrow.fp-prev {
+        display: none;
+    }
+    .fp-controlArrow.fp-next {
+        display: none;
+    }
+}
+
+
+
 /* GENERAL */
 .section-header {
     font-size: 5vh;
@@ -51,6 +80,8 @@ html, body {
     z-index: 3;
     width: 100%;
 }
+
+/* MAIN INTRO */
 #intro {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
