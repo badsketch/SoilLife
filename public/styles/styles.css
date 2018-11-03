@@ -398,7 +398,6 @@ html, body {
 
 
 /* ABOUT US */
-/* TODO: MAKE RESPONSIVE */
 #about-us-section {
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.3),
@@ -429,8 +428,8 @@ html, body {
     font-size: 1.1vw;
 }
 
-#about-us-text p:nth-child(2) {
-    margin-top: 15vh;
+#about-us-text p {
+    margin: 8vh;
 }
 
 #about-us-section .link {
@@ -438,6 +437,33 @@ html, body {
     right: 20px;
     top: 50%;
     margin-top: -40px;
+}
+
+@media screen and (max-width: 600px) {
+
+    #about-us-section {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.3)
+          ), url("../imgs/about/about-us.jpg");
+    }
+    #about-us-container{
+        height: unset;
+        width: 85vw;
+        top: 0;
+        text-align: left;
+        background-color: unset;
+
+    }
+
+    #about-us-text {
+        font-size: 2vh;
+        color: white;
+    }
+
+    #about-us-text p {
+        margin: 2vh;
+    }
 }
 
 
