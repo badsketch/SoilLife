@@ -37,6 +37,12 @@ app.get('/media', function(req, res) {
     res.render('pages/media');
 })
 
+
+var getInvolved = require('./public/getinvolved.json');
+app.get('/get_involved/at_home', function(req, res) {
+    res.render('pages/get_involved/at_home', { data: getInvolved.athome});
+})
+
 var port = process.env.PORT || 8080;
 
 app.listen(port, function() {

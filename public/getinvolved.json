@@ -1,0 +1,36 @@
+{
+    "athome": [
+        {
+            "img": "rooftop_garden.jpg",
+            "desc": "start a garden"
+        },
+        {
+            "img": "compost.jpg",
+            "desc": "start a compost pile"
+        },
+        {
+            "img": "green_bin.jpg",
+            "desc": "request a green bin"
+        },
+        {
+            "img": "vegetable_garden.jpg",
+            "desc": "plant your own vegetables"
+        },
+        {
+            "img": "convert_law.jpg",
+            "desc": "convert your lawn to native plants"
+        },
+        {
+            "img": "leaves.jpg",
+            "desc": "leave the leaves"
+        },
+        {
+            "img": "mulch.jpg",
+            "desc": "mulch!"
+        },
+        {
+            "img": "barefoot.jpg",
+            "desc": "kick off your shoes and run around barefoot!"
+        }
+    ]
+}
