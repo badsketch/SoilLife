@@ -13,8 +13,12 @@
 
 /* COLORS */
 :root {
-    --food-color: #ee6a7c;
-    --fun-color: #36ae99;
+    --light-pink: rgb(238,106,124,0.3);
+    --light-yellow: rgb(250,199,24,0.3);
+    --light-green: rgb(54,174,153,0.3);
+    --light-blue: rgb(25,91,167,0.3);
+    --light-orange: rgb(250,106,51,0.3);
+    --light-brown: rgb(84,77,80, 0.3);
 }
 
 * {
@@ -36,18 +40,72 @@ html, body {
 
 /* AT HOME */
 #athome-intro {
-    background-image: url('/imgs/get_involved/at_home/at_home.jpg');
+    background-image: url('/imgs/get_involved/home/at_home.jpg');
     background-size: cover;
     background-position: center center;
 }
+.clr-home {
+    background-color: var(--light-pink);
+}
 
+#community-intro {
+    background-image: url('/imgs/get_involved/community/in_community.jpg');
+    background-size: cover;
+    background-position: center center;   
+}
+.clr-community {
+    background-color: var(--light-yellow);
+}
+
+#legislation-intro {
+    background-image: url('/imgs/get_involved/legislation/legislation.jpg');
+    background-size: cover;
+    background-position: center center;   
+}
+.clr-legislation {
+    background-color: var(--light-blue);
+}
+
+#education-intro {
+
+    background-image: url('/imgs/get_involved/education/education.jpg');
+    background-size: cover;
+    background-position: center center;   
+}
+
+.clr-education {
+    background-color: var(--light-brown);
+}
+
+#donations-intro {
+
+    background-image: url('/imgs/get_involved/donations/donations.jpg');
+    background-size: cover;
+    background-position: center center;   
+}
+
+.clr-donations {
+    background-color: var(--light-orange);
+}
+
+#socialmedia-intro {
+
+    background-image: url('/imgs/get_involved/socialmedia/socialmedia.jpg');
+    background-size: cover;
+    background-position: center center;   
+}
+
+.clr-socialmedia {
+    background-color: var(--light-blue);
+}
+/* GENERAL */
 .container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(238,106,124,0.2);
 }
+
 
 .card {
     background: white;

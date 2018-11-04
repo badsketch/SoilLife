@@ -12,15 +12,15 @@
         <div id="fixed-wrapper">
             <%- include('../../partials/main_nav'); %>
         </div>
-        <div class="section" id="athome-intro">
-            <img src="/imgs/get_involved/at_home/at_home.svg">
+        <div class="section" id="donations-intro">
+            <img src="/imgs/get_involved/donations/donations.svg">
         </div>
-        <div class="section fp">
-            <div class="container">
+        <div class="section">
+            <div class="container clr-donations">
                 <% cards.forEach(function(card) { %>
                     <div class="card">
                         <a href="<%= card.link %>">
-                        <img src="<%= card.img %>">
+                        <img src="/imgs/get_involved/donations/<%= card.img %>">
                             <div class="desc">
                                 <%= card.desc %>
                             </div>

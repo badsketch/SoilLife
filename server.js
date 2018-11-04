@@ -39,8 +39,28 @@ app.get('/media', function(req, res) {
 
 
 var getInvolved = require('./public/getinvolved.json');
-app.get('/get_involved/at_home', function(req, res) {
-    res.render('pages/get_involved/at_home', { cards: getInvolved.athome});
+app.get('/get-involved/home', function(req, res) {
+    res.render('pages/get_involved/home', { cards: getInvolved.home});
+})
+
+app.get('/get-involved/community', function(req, res) {
+    res.render('pages/get_involved/community', { cards: getInvolved.community});
+})
+
+app.get('/get-involved/legislation', function(req, res) {
+    res.render('pages/get_involved/legislation', {cards: getInvolved.legislation});
+})
+
+app.get('/get-involved/education', function(req, res) {
+    res.render('pages/get_involved/education', {cards: getInvolved.education});
+})
+
+app.get('/get-involved/donations', function(req, res) {
+    res.render('pages/get_involved/donations', {cards: getInvolved.donations});
+})
+
+app.get('/get-involved/socialmedia', function(req, res) {
+    res.render('pages/get_involved/socialmedia', {cards: getInvolved.socialmedia});
 })
 
 var port = process.env.PORT || 8080;
