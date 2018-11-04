@@ -40,7 +40,7 @@ app.get('/media', function(req, res) {
 
 var getInvolved = require('./public/getinvolved.json');
 app.get('/get_involved/at_home', function(req, res) {
-    res.render('pages/get_involved/at_home', { data: getInvolved.athome});
+    res.render('pages/get_involved/at_home', { cards: getInvolved.athome});
 })
 
 var port = process.env.PORT || 8080;

@@ -38,19 +38,45 @@ html, body {
 #athome-intro {
     background-image: url('/imgs/get_involved/at_home/at_home.jpg');
     background-size: cover;
+    background-position: center center;
 }
 
-.row {
+.container {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    background-color: rgb(238,106,124,0.2);
+}
+
+.card {
+    background: white;
+    width: 30%;
+    margin: 20px;
+    
+}
+
+.card:hover {
+    opacity: 0.6;
+}
+
+.card a {
+   text-decoration: none;
+}
+
+.card img {
+    height: 30vh;
+    object-fit: cover;
     width: 100%;
 }
 
-.column {
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    padding: 0 10px;
+.card .desc {
+    padding: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
 }

@@ -1,36 +1,44 @@
 {
     "athome": [
         {
-            "img": "rooftop_garden.jpg",
-            "desc": "start a garden"
+            "img": "/imgs/get_involved/at_home/compost.jpg",
+            "desc": "start a garden",
+            "link": "https://www.calrecycle.ca.gov/organics/homecompost"
         },
         {
-            "img": "compost.jpg",
-            "desc": "start a compost pile"
+            "img": "/imgs/get_involved/at_home/compost.jpg",
+            "desc": "start a compost pile",
+            "link": "https://www.calrecycle.ca.gov/organics/homecompost"
         },
         {
-            "img": "green_bin.jpg",
-            "desc": "request a green bin"
+            "img": "/imgs/get_involved/at_home/green_bin.jpg",
+            "desc": "request a green bin",
+            "link": "https://www.google.com/search?ei=lAukW9-OMtTq9AOFs474Dw&q=request+a+compost+bin&oq=request+a+compost+bin&gs_l=psy-ab.3..0i30l2.14435.15187..17124...0.0..0.80.145.2......0....1..gws-wiz.......0i71.stLlaipX2oM  "
         },
         {
-            "img": "vegetable_garden.jpg",
-            "desc": "plant your own vegetables"
+            "img": "/imgs/get_involved/at_home/vegetable_garden.jpg",
+            "desc": "plant your own vegetables",
+            "link": "https://www.growveg.com/garden-planner-intro.aspx "
         },
         {
-            "img": "convert_law.jpg",
-            "desc": "convert your lawn to native plants"
+            "img": "/imgs/get_involved/at_home/convert_lawn.jpg",
+            "desc": "convert your lawn to native plants",
+            "link": "http://www.native-again-landscape.com/lawn-to-drought-resistant-perennials.html "
         },
         {
-            "img": "leaves.jpg",
-            "desc": "leave the leaves"
+            "img": "/imgs/get_involved/at_home/leaves.jpg",
+            "desc": "leave the leaves",
+            "link": "https://www.consumerreports.org/lawn-care/for-the-greenest-yard-leave-the-leaves-behind/ "
         },
         {
-            "img": "mulch.jpg",
-            "desc": "mulch!"
+            "img": "/imgs/get_involved/at_home/mulch.jpg",
+            "desc": "mulch!",
+            "link": "https://getchipdrop.com/"
         },
         {
-            "img": "barefoot.jpg",
-            "desc": "kick off your shoes and run around barefoot!"
+            "img": "/imgs/get_involved/at_home/barefoot.jpg",
+            "desc": "kick off your shoes and run around barefoot!",
+            "link": null
         }
     ]
 }
