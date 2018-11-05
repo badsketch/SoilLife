@@ -284,9 +284,10 @@ html, body {
 
 @media screen and (max-width: 600px) {
     #sixFsVideo {
-        height: 80%;
+        height: auto;
         width: 80%;
-        right: 10px;
+        right: 5px;
+        position: relative;
     }
 }
 
