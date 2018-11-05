@@ -205,21 +205,20 @@ html, body {
     text-align: center;
 }
 
-#container {
-    position: relative;
+#video-container {
+    height: 100vh;
     width: 100%;
-    padding-top: 56.25%;
-    margin-top: 120px;
+    text-align: center;
+    display: table;
+}
+
+#video-cell {
+    display: table-cell;
+    vertical-align: middle;
 }
 #sixFsVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom:0;
-    right:0;
     height: 60%;
     width: 60%;
-    margin: 0 auto;  
 }
 
 @media screen and (max-width: 600px) {
