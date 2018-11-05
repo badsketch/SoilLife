@@ -64,6 +64,7 @@ html, body {
 #food-intro {
     background-image: url("/imgs/sixf/intros/food.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #food-intro .intro-text {
@@ -84,6 +85,7 @@ html, body {
 #fiber-intro {
     background-image: url("/imgs/sixf/intros/fiber.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #fiber-intro .intro-text {
@@ -105,6 +107,7 @@ html, body {
 #filter-intro {
     background-image: url("/imgs/sixf/intros/filter.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #filter-intro .intro-text {
@@ -149,6 +152,7 @@ html, body {
 #farmaceuticals-intro {
     background-image: url("/imgs/sixf/intros/farmaceuticals.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #farmaceuticals-intro .intro-text {
@@ -171,6 +175,7 @@ html, body {
 #fun-intro {
     background-image: url("/imgs/sixf/intros/fun.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #fun-intro .intro-text {
@@ -187,6 +192,62 @@ html, body {
     bottom: 12%;
     width: 35vh;
     height: 35vh;
+}
+
+/* FORGIVE ME */
+@media screen and (max-width: 600px) {
+    .right-link, .left-link {
+        display: none;
+    }
+    .intro-text {
+        background-color: white;
+        color: var(--foundation-color) !important;
+        left: unset !important;
+        right: unset !important;
+        top: unset !important;
+        bottom: 0 !important;
+        width: 100vw !important;
+        font-size: 2vh !important;
+        padding: 15px;
+        text-align: center !important;
+        box-sizing: border-box;
+        border: 1px solid var(--foundation-color);
+    }
+    #fiber-intro {
+        background-position: 75% center;
+    }
+
+    #farmaceuticals-intro {
+        background-position: 32% center;
+    }
+
+    #fun-intro {
+        background-position: 40% center;
+    }
+
+    #food-badge {
+        top: 13%;
+        left: -2%;
+    }
+
+    #filter-badge {
+        left: 53%;
+        top: 30%;
+    }
+
+    #foundation-badge {
+        left: 15%;
+        top: 20%;
+    }
+
+    #farmaceuticals-badge {
+        left: -10%;
+        top: 42%;
+    }
+
+    #fun-badge {
+        right: -5%;
+    }
 }
 
 /* colors */
