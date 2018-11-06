@@ -150,20 +150,24 @@ html, body {
     display: flex;
 }
 
-.soil-desc {
+.soil-content {
     width: 35vw;
     height: 100vh;
 }
 
-.soil-desc img {
+.soil-content img {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
 
-.soil-desc p {
+.soil-header {
+    text-align: center;
+    font-size: 4vh;
+}
+.soil-desc {
     text-align: left;
-    padding: 30% 16%;
+    padding: 15% 16%;
     font-size: 1.2em;
     line-height: 130%;
 }
@@ -190,17 +194,23 @@ html, body {
         flex-direction: column-reverse;
     }
 
-    .soil-desc {
+    .soil-content {
         width: 100vw;
         height: 100vh;
     }
 
-    .soil-desc img {
+    .soil-content img {
         width: 40vw;
     }
-    .soil-desc p {
+
+    .soil-header {
         text-align: center;
-        padding: 10vh 12vw;
+        font-size: 4vh;
+    }
+
+    .soil-desc {
+        text-align: center;
+        padding: 6vh 12vw;
         font-size: 1em;
         line-height: unset;
         display: block;
