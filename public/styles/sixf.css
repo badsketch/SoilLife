@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'acremedium';
+    src: url("./Acre-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
 /* CENTERING SLIDE NAV */
 .fp-slidesNav {
     display: flex;
