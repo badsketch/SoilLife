@@ -39,7 +39,7 @@ d3.csv('../mediahub.csv', function(error, data) {
                     
                     var link = document.createElement('a');
                     d3.select(link)
-                        .attr('data-fancybox', '')
+                        .attr('data-fancybox', 'videos')
                         .attr('data-small-btn', 'true')
                         .attr('href', row.URL);
                     tile.appendChild(link);

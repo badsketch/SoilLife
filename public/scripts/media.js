@@ -1,6 +1,5 @@
 d3.csv('../mediahub.csv', function(error, data) {
     if (error) throw error;
-    console.log("wtf");
     var a = [];
 
     data.forEach(function (row, i){
@@ -11,7 +10,6 @@ d3.csv('../mediahub.csv', function(error, data) {
     var unique = a.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
 
     var tags = ['Food','Filter','Foundations','Fiber','Fun', 'Farmaceuticals'];
-    console.log(tags);
     unique.forEach(function (j){
 
         var section = document.getElementById("contain");
@@ -29,7 +27,6 @@ d3.csv('../mediahub.csv', function(error, data) {
         row.appendChild(row_inner);
         section.appendChild(title);
 
-        console.log(j);
         data.forEach(function (row, i){
 
             if(row.Category == j){
@@ -84,7 +81,7 @@ d3.csv('../mediahub.csv', function(error, data) {
                     
                     var link = document.createElement('a');
                     d3.select(link)
-                        .attr('data-fancybox', '')
+                        .attr('data-fancybox', 'videos'+j)
                         .attr('data-small-btn', 'true')
                         .attr('href', row.URL);
                     tile.appendChild(link);
