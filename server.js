@@ -9,7 +9,29 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 })
 
+/* SOILS 101 */
+app.get('/soils101/genesis', function(req, res) {
+    res.render('pages/soils101/genesis');
+})
+app.get('/soils101/habitat', function(req, res) {
+    res.render('pages/soils101/habitat');
+})
+app.get('/soils101/biology', function(req, res) {
+    res.render('pages/soils101/biology');
+})
+app.get('/soils101/chemistry', function(req, res) {
+    res.render('pages/soils101/chemistry');
+})
+app.get('/soils101/nutrition', function(req, res) {
+    res.render('pages/soils101/nutrition');
+})
+app.get('/soils101/health', function(req, res) {
+    res.render('pages/soils101/health');
+})
 
+
+
+/* SIXF */
 app.get('/food', function(req, res) {
     res.render('pages/food');
 })
@@ -38,6 +60,7 @@ app.get('/media', function(req, res) {
 })
 
 
+/* GET INVOLVED */
 var getInvolved = require('./public/getinvolved.json');
 app.get('/get-involved/home', function(req, res) {
     res.render('pages/get_involved/home', { cards: getInvolved.home});
@@ -62,6 +85,7 @@ app.get('/get-involved/donations', function(req, res) {
 app.get('/get-involved/socialmedia', function(req, res) {
     res.render('pages/get_involved/socialmedia', {cards: getInvolved.socialmedia});
 })
+
 
 var port = process.env.PORT || 8080;
 
