@@ -1,10 +1,17 @@
 @font-face {
-    font-family: 'acremedium';
+    font-family: 'acremedium-thin';
     src: url("./Acre-Thin.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'acremedium';
+    src: url("./Acre-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'acremedium';
@@ -197,6 +204,7 @@ html, body {
 .card .desc {
     padding: 30px;
     font-size: 3vh;
+    font-family: 'acremedium-thin';
 }
 
 @media screen and (max-width: 600px) {
