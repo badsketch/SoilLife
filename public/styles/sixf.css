@@ -414,9 +414,9 @@ figure p {
     display: none;
 } */
 /* SOIL FLIX */
-#contain {
+#flix-container {
     position: relative;
-    top: 30%;
+    top: 30vh;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -442,18 +442,20 @@ section a:hover {
 h1.title {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 10px;
     font-family: 'acremedium';
     font-weight: 800;
     color: #E06572;
     font-size: 2em;
   }
-  .row {
+
+
+.row {
     overflow-x: scroll;
-    overflow-y: none;
     width: 90%;
-  }
-  .row__inner {
+}
+
+.row__inner {
     transition: 450ms -webkit-transform;
     transition: 450ms transform;
     transition: 450ms transform, 450ms -webkit-transform;
@@ -461,9 +463,10 @@ h1.title {
     white-space: nowrap;
     margin: 40.3125px 0;
     padding-bottom: 10px;
-   /* border: 5px solid #E06572;;*/
-  }
-  .tile {
+    /* border: 5px solid #E06572;;*/
+}
+
+.tile {
     position: relative;
     display: inline-block;
     width: 250px;
@@ -474,14 +477,16 @@ h1.title {
     transition: 450ms all;
     -webkit-transform-origin: center left;
             transform-origin: center left;
-  }
-  .tile__img {
+}
+
+.tile__img {
     width: 250px;
     height: 140.625px;
     -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .tile__details {
+        object-fit: cover;
+}
+
+.tile__details {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -491,16 +496,18 @@ h1.title {
     opacity: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
     transition: 450ms opacity;
-  }
-  .tile__details:after,
-  .tile__details:before {
+}
+
+.tile__details:after,
+.tile__details:before {
     content: '';
     position: absolute;
     top: 50%;
     left: 50%;
     display: #000;
-  }
-  .tile__details:after {
+}
+
+.tile__details:after {
     margin-top: -25px;
     margin-left: -25px;
     width: 50px;
@@ -511,8 +518,9 @@ h1.title {
     border-radius: 100%;
     background: rgba(0,0,0,0.5);
     z-index: 1;
-  }
-  .tile__details:before {
+}
+
+.tile__details:before {
     content: '▶';
     left: 0;
     width: 100%;
@@ -523,30 +531,74 @@ h1.title {
     margin-left: .2em;
     text-align: center;
     z-index: 2;
-  }
-  .tile:hover .tile__details {
+}
+
+.tile:hover .tile__details {
     opacity: 1;
-  }
-  .tile__title {
+}
+
+.tile__title {
     position: absolute;
     bottom: 0;
     padding: 10px;
     font-size: 1vh;
-  }
-  .row__inner:hover {
+}
+
+.row__inner:hover {
     -webkit-transform: translate3d(-62.5px, 0, 0);
             transform: translate3d(-62.5px, 0, 0);
-  }
-  .row__inner:hover .tile {
+}
+
+.row__inner:hover .tile {
     opacity: 0.3;
-  }
-  .row__inner:hover .tile:hover {
+}
+
+.row__inner:hover .tile:hover {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
     opacity: 1;
-  }
-  .tile:hover ~ .tile {
+}
+
+.tile:hover ~ .tile {
     -webkit-transform: translate3d(125px, 0, 0);
             transform: translate3d(125px, 0, 0);
-  }
-  
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #flix-container {
+        top: 15vh;
+        padding-bottom: 140px;
+    }
+
+    .row {
+        width: 75%;
+    }
+    .row__inner {
+        white-space: unset;
+        margin: unset;
+    }
+    
+    .tile {
+        margin-right: unset;
+        display: block;
+        margin: 10px auto;
+
+    }
+    .row__inner:hover {
+        -webkit-transform: none;
+                transform: none;
+    }
+    
+    
+    .row__inner:hover .tile:hover {
+        -webkit-transform: none;
+                transform: none;
+    }
+    
+    .tile:hover ~ .tile {
+        -webkit-transform: none;
+                transform: none;
+    }
+}

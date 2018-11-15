@@ -13,14 +13,14 @@ d3.csv('../mediahub.csv', function(error, data) {
     var unique = a.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
 
 
-        var section = document.getElementById("contain");
+        var section = document.getElementById("flix-container");
 
         var title = document.createElement('h1');
         title.className = "title";
         title.innerHTML = "Media Hub";
 
         var row = document.createElement('div')
-        row.className = "row";
+        row.className = `row bdr-${CATEGORY}`;
 
         var row_inner = document.createElement('div')
         row_inner.className = "row__inner";

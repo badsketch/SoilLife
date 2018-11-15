@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="/styles/sixf.css" />
         <link rel="stylesheet" type="text/css" href="/styles/fullpage.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/scripts/scrolloverflow.min.js"></script>
         <script type="text/javascript" src="/scripts/fullpage.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/styles/jquery.fancybox.min.css">
@@ -41,7 +43,7 @@
                     <svg id="web"></svg>
                 </div>
                 <div class="section">
-                    <section id="contain"></section>
+                    <section id="flix-container"></section>
                 </div>
             </div>
             <div id="modal">
@@ -58,7 +60,8 @@
                         navigation: true,
                         slidesNavigation: true,
                         autoScrolling:true,
-                        scrollHorizontally: true
+                        scrollHorizontally: true,
+                        scrollOverflow: true
                     });
             </script>
             <script src="/scripts/d3.v4.min.js"></script>
