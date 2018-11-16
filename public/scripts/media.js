@@ -105,6 +105,11 @@ d3.csv('../mediahub.csv', function(error, data) {
 
                     var tile_details = document.createElement('div')
                     tile_details.className ="tile__details";
+
+                    var play_button = document.createElement('img');
+                    play_button.src = "./imgs/shared/play-button.svg";
+                    play_button.className = "play-button";
+                    tile_details.appendChild(play_button);
                     
                     var tile_title = document.createElement('div')
                     tile_title.className = "tile__title";
