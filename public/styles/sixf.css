@@ -32,6 +32,8 @@
 * {
     font-family: acremedium;
     letter-spacing: 1px;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
 }
 
 html, body {
@@ -339,7 +341,6 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -367,6 +368,7 @@ html, body {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
+    overflow-y: hidden;
     height: 60vh;
 }
 
@@ -395,22 +397,22 @@ html, body {
 }
 
 .bdr-Food {
-    border: 1.5px solid  rgb(238,106,124,0.5);
+    border: 1.5px solid  rgba(238,106,124,0.5);
 }
 .bdr-FiberFuel {
-    border: 1.5px solid  rgb(250,199,24,0.5);
+    border: 1.5px solid  rgba(250,199,24,0.5);
 }
 .bdr-Filter {
-    border: 1.5px solid  rgb(25,91,167,0.5);
+    border: 1.5px solid  rgba(25,91,167,0.5);
 }
 .bdr-Foundation {
-    border: 1.5px solid  rgb(84,77,80,0.5);
+    border: 1.5px solid  rgba(84,77,80,0.5);
 }
 .bdr-Farmaceuticals {
-    border: 1.5px solid  rgb(250,106,51,0.5);
+    border: 1.5px solid  rgba(250,106,51,0.5);
 }
 .bdr-Fun {
-    border: 1.5px solid  rgb(54,174,153,0.5);
+    border: 1.5px solid  rgba(54,174,153,0.5);
 }
 
 
@@ -578,7 +580,7 @@ h1.title {
 }
 
 .row__inner:hover .tile {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .row__inner:hover .tile:hover {
@@ -603,6 +605,10 @@ h1.title {
     .row {
         width: 75%;
     }
+
+    #modal-row {
+        overflow-y: auto;
+    }
     .row__inner {
         white-space: unset;
         margin: unset;
@@ -623,6 +629,10 @@ h1.title {
     .row__inner:hover {
         -webkit-transform: none;
                 transform: none;
+    }
+
+    .row__inner:hover .tile{
+        opacity: 1;
     }
     
     
