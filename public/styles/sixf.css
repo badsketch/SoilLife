@@ -585,6 +585,12 @@ h1.title {
         margin: 10px auto;
 
     }
+
+    .tile__details {
+        opacity: 1;
+        background: linear-gradient(to top, rgba(0,0,0,.9) 0%, rgba(0,0,0,0) 60%)
+    }
+
     .row__inner:hover {
         -webkit-transform: none;
                 transform: none;
