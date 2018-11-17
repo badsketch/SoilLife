@@ -242,7 +242,7 @@ d3.json("../wos.json", function (data) {
                 }
 
                 // creates figure cell
-                block.className = `modal-table-cell bdr-${CATEGORY}`;
+                block.className = `modal-cell bdr-${CATEGORY}`;
                 block.innerHTML = `<figure>
                 <img src="${item.img}" style="width:100px" alt='missing' />
                     <br>
