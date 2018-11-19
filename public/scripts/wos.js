@@ -145,7 +145,7 @@ d3.json("../wos.json", function (data) {
             var path = highlight(d,node_data[0]);
             displayModal(path);
             var modal = document.getElementById('modal');
-            modal.style.display = "block";        
+            modal.style.display = "block";          
         })
 
 
@@ -219,6 +219,8 @@ d3.json("../wos.json", function (data) {
     function displayModal(path) {
         // check if there are multiple children
         var hasMulti = path.filter(elm =>  elm.direct).length > 2;
+        //document.getElementById("modal-content").onclick();
+        $('modal-content').trigger();
         var row = document.getElementById("modal-row");
 
         path.forEach((item) => {

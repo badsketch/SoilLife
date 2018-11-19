@@ -14,18 +14,13 @@
                 "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
             },
             {
-                "name": "Bothrops Jararaca",
+                "name": "Bothrops Jararaca (Snake)",
                 "img": "./imgs/sixf/wos/Farmaceuticals/Bothrops_Jararaca.png", 
                 "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
             },
             {
                 "name": "Digoxin",
                 "img": "./imgs/sixf/wos/Farmaceuticals/Digoxin.png", 
-                "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
-            },
-            {
-                "name": "Foxglove",
-                "img": "./imgs/sixf/wos/Farmaceuticals/Foxglove.png", 
                 "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
             },
             {
@@ -69,7 +64,7 @@
                 "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
             },
             {
-                "name": "Rodent",
+                "name": "Rodents",
                 "img": "./imgs/sixf/wos/Farmaceuticals/Rodent.png", 
                 "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
             },
@@ -87,7 +82,197 @@
                 "name": "Willow Tree",
                 "img": "./imgs/sixf/wos/Farmaceuticals/Willow_Tree.png", 
                 "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc" 
-            }
+            },
+            {
+                "name": "ACE Inhibitors",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Aceinhibitors.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Acetylsalicylic Acid",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Acetylsalicylicacid.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Allicin",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Allicin.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Aloe Vera Plant",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Aloe_Vera_Plant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Avocado Oil",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Avocado_Oil.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Avocado",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Avocado.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Bees",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Bees.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Beeswax",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Beeswax.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Bug Repellant",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Bug_Repellant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Citronella Oil",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Citronella_Oil.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Coconut Oil",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Coconut_Oil.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Curcumin",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Curcumin.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cymbopogon (Lemongrass)",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Cymbopogon_Lemongrass.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Foundation-Makeup",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Foundation_Makeup.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Garlic",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Garlic.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Iron Oxide",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Iron_Oxide.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Jojoba Oil",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Jojoba_Oil.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Jojoba Tree",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Jojoba_Tree.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Lanolin",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Lanolin.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Lip Balm",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Lip_Balm.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Lotion",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Lotion.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Mica",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Mica.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Pigment",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Pigment.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Soap",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Soap.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Streptomyces",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Streptomyces.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Tallow",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Tallow.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Turmeric",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Turmeric.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Corn",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Corn.png", 
+                "description": "Corn desc Corn desc Corn desc Corn desc Corn desc Corn desc Corn desc Corn desc Corn desc Corn desc" 
+            },
+            {
+                "name": "Insects",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Insect.png", 
+                "description": "TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc TomatoSauce desc" 
+            },
+            {
+                "name": "Plants",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Plants.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Oregano",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Oregano.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Carvacrol",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Carvacrol.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Clay",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Clay.png", 
+                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
+            },
+            {
+                "name": "Grass",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Grass.png", 
+                "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc" 
+            },
+            {
+                "name": "Sheep",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Sheep.png",
+                "description": "desc desc desc"
+              },
+            {
+                "name": "Flowers",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Flowers.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cow",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Cow.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Vegetable Oil",
+                "img": "./imgs/sixf/wos/Farmaceuticals/Vegetable_Oil.png",
+                "description": "desc desc desc"
+              }
         ],
         "FiberFuel": [
             {
@@ -849,7 +1034,70 @@
 
         ],
         "Farmaceuticals": [
-            {"source": "Soil", "target": "Poppy Plant"}
+            {"source": "Soil", "target": "Poppy Plant"},
+            {"source": "Poppy Plant", "target": "Opium"},
+            {"source": "Opium", "target": "Morphine"},
+            {"source": "Soil", "target": "Streptomyces"},
+            {"source": "Streptomyces", "target": "Streptomycin"},
+            {"source": "Streptomyces", "target": "Tetracycline"},
+            {"source": "Soil", "target": "Fungi"},
+            {"source": "Soil", "target": "Corn"},
+            {"source": "Corn", "target": "Liquor"},
+            {"source": "Fungi", "target": "Penicillin"},
+            {"source": "Liquor", "target": "Penicillin"},
+            {"source": "Soil", "target": "Willow Tree"},
+            {"source": "Willow Tree", "target": "Acetylsalicylic Acid"},
+            {"source": "Acetylsalicylic Acid", "target": "Ibuprofen"},
+            {"source": "Soil", "target": "Insects"},
+            {"source": "Soil", "target": "Plants"},
+            {"source": "Plants", "target": "Rodents"},
+            {"source": "Insects", "target": "Rodents"},
+            {"source": "Rodents", "target": "Bothrops Jararaca (Snake)"},
+            {"source": "Bothrops Jararaca (Snake)", "target": "ACE Inhibitors"},
+            {"source": "Soil", "target": "Oregano"},
+            {"source": "Oregano", "target": "Carvacrol"},
+            {"source": "Soil", "target": "Turmeric"},
+            {"source": "Turmeric", "target": "Curcumin"},
+            {"source": "Soil", "target": "Garlic"},
+            {"source": "Garlic", "target": "Allicin"},
+            {"source": "Soil", "target": "Cymbopogon (Lemongrass)"},
+            {"source": "Cymbopogon (Lemongrass)", "target": "Citronella Oil"},
+            {"source": "Citronella Oil", "target": "Bug Repellant"},
+            {"source": "Soil", "target": "Aloe Vera Plant"},
+            {"source": "Soil", "target": "Coconut"},
+            {"source": "Soil", "target": "Jojoba Tree"},
+            {"source": "Soil", "target": "Avocado"},
+            {"source": "Coconut", "target": "Coconut Oil"},
+            {"source": "Jojoba Tree", "target": "Jojoba Oil"},
+            {"source": "Avocado", "target": "Avocado Oil"},
+            {"source": "Avocado Oil", "target": "Lotion"},
+            {"source": "Jojoba Oil", "target": "Lotion"},
+            {"source": "Coconut Oil", "target": "Lotion"},
+            {"source": "Aloe Vera Plant", "target": "Lotion"},
+            {"source": "Avocado Oil", "target": "Foundation-Makeup"},
+            {"source": "Jojoba Oil", "target": "Foundation-Makeup"},
+            {"source": "Coconut Oil", "target": "Foundation-Makeup"},
+            {"source": "Soil", "target": "Clay"},
+            {"source": "Clay", "target": "Mica"},
+            {"source": "Soil", "target": "Iron Oxide"},
+            {"source": "Iron Oxide", "target": "Pigment"},
+            {"source": "Pigment", "target": "Foundation-Makeup"},
+            {"source": "Soil", "target": "Grass"},
+            {"source": "Grass", "target": "Sheep"},
+            {"source": "Sheep", "target": "Lanolin"},
+            {"source": "Lanolin", "target": "Foundation-Makeup"},
+            {"source": "Lanolin", "target": "Lip Balm"},
+            {"source": "Soil", "target": "Flowers"},
+            {"source": "Flowers", "target": "Bees"},
+            {"source": "Bees", "target": "Beeswax"},
+            {"source": "Beeswax", "target": "Lip Balm"},
+            {"source": "Grass", "target": "Cow"},
+            {"source": "Cow", "target": "Tallow"},
+            {"source": "Tallow", "target": "Soap"},
+            {"source": "Plants", "target": "Vegetable Oil"},
+            {"source": "Vegetable Oil", "target": "Soap"}
+
+
         ],
         "FiberFuel": [
             {"source": "Soil", "target": "Cotton Plant"},

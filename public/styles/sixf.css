@@ -32,8 +32,8 @@
 * {
     font-family: acremedium;
     letter-spacing: 1px;
-    -webkit-overflow-scrolling: touch;
-    -moz-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
+    /* -moz-overflow-scrolling: touch; */
 }
 
 html, body {
@@ -370,6 +370,7 @@ html, body {
     overflow-x: auto;
     overflow-y: hidden;
     height: 60vh;
+    /* -webkit-overflow-scrolling: touch; */
 }
 
 
