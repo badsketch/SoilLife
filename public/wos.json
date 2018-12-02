@@ -985,7 +985,177 @@
                 "name": "Soccer",
                 "img": "./imgs/sixf/wos/Fun/Soccer.png",
                 "description": "Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc Grass desc"
-            }
+            },
+            {
+                "name": "Football",
+                "img": "./imgs/sixf/wos/Fun/Football.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Gamboge (yellow)",
+                "img": "./imgs/sixf/wos/Fun/Gamboge.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Indigo Leaves (blue)",
+                "img": "./imgs/sixf/wos/Fun/Indigo_Plant.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Iron Oxide (red)",
+                "img": "./imgs/sixf/wos/Fun/Iron_Oxide.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Linseed",
+                "img": "./imgs/sixf/wos/Fun/Linseed.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Mud Bath",
+                "img": "./imgs/sixf/wos/Fun/Mud_Bath.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Oil",
+                "img": "./imgs/sixf/wos/Fun/Oil.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Paint",
+                "img": "./imgs/sixf/wos/Fun/Paint.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Pigment",
+                "img": "./imgs/sixf/wos/Fun/Pigment.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Pottery Wheel",
+                "img": "./imgs/sixf/wos/Fun/Pottery_Wheel.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Pottery",
+                "img": "./imgs/sixf/wos/Fun/Pottery.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Resin",
+                "img": "./imgs/sixf/wos/Fun/Resin.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Sail",
+                "img": "./imgs/sixf/wos/Fun/Sail.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Sailing",
+                "img": "./imgs/sixf/wos/Fun/Sailing.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Coconut",
+                "img": "./imgs/sixf/wos/Fun/Coconut.png",
+                "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc"
+            },
+              {
+                "name": "Soybean",
+                "img": "./imgs/sixf/wos/Fun/Soybean.png",
+                "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc"
+            },
+              {
+                "name": "Cotton Plant",
+                "img": "./imgs/sixf/wos/Fun/Cotton_Plant.png",
+                "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc"
+            },
+              {
+                "name": "Flax Plant",
+                "img": "./imgs/sixf/wos/Fun/Flax_Plant.png",
+                "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc"
+            },
+              {
+                "name": "Hemp Plant",
+                "img": "./imgs/sixf/wos/Fun/Hemp_Plant.png",
+                "description": "Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc Coconut desc"
+            },
+            {
+                "name": "Boat",
+                "img": "./imgs/sixf/wos/Fun/Boat.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cellphone",
+                "img": "./imgs/sixf/wos/Fun/Cellphone.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Glass",
+                "img": "./imgs/sixf/wos/Fun/Glass.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Horse Hair",
+                "img": "./imgs/sixf/wos/Fun/Horse_Hair.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Horse",
+                "img": "./imgs/sixf/wos/Fun/Horse.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Microprocessor",
+                "img": "./imgs/sixf/wos/Fun/Microprocessor.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Oats",
+                "img": "./imgs/sixf/wos/Fun/Oats.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Paintbrush",
+                "img": "./imgs/sixf/wos/Fun/Paintbrush.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Rare Earth Minerals",
+                "img": "./imgs/sixf/wos/Fun/Rare_Earth_Minerals.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Silica",
+                "img": "./imgs/sixf/wos/Fun/Silica.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Wood Instruments",
+                "img": "./imgs/sixf/wos/Fun/Wood_Instruments.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cobalt",
+                "img": "./imgs/sixf/wos/Fun/Cobalt.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Cobalt Mining",
+                "img": "./imgs/sixf/wos/Fun/Cobalt_Mining.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Computer",
+                "img": "./imgs/sixf/wos/Fun/Computer.png",
+                "description": "desc desc desc"
+              },
+              {
+                "name": "Silicon",
+                "img": "./imgs/sixf/wos/Fun/Silicon.png",
+                "description": "desc desc desc"
+              }
         ]
     },
     "links": {
@@ -1231,10 +1401,53 @@
             {"source": "Trails", "target": "Camping"},
             {"source": "Vegetation", "target": "Camping"},
             {"source": "Wildlife", "target": "Camping"},
+            {"source": "Soil", "target": "Sand"},
             {"source": "Sand", "target": "Beach"},
             {"source": "Beach", "target": "Volleyball"},
             {"source": "Grass", "target": "Soccer Field"},
-            {"source": "Soccer Field", "target": "Soccer"}            
+            {"source": "Soccer Field", "target": "Soccer"},
+            {"source": "Clay", "target": "Mud Bath"},
+            {"source": "Clay", "target": "Pottery Wheel"},
+            {"source": "Pottery Wheel", "target": "Pottery"},
+            {"source": "Soil", "target": "Linseed"},
+            {"source": "Soil", "target": "Coconut"},
+            {"source": "Soil", "target": "Soybean"},
+            {"source": "Soil", "target": "Iron Oxide (red)"},
+            {"source": "Soil", "target": "Indigo Leaves (blue)"},
+            {"source": "Soil", "target": "Gamboge (yellow)"},
+            {"source": "Iron Oxide (red)", "target": "Pigment"},
+            {"source": "Indigo Leaves (blue)", "target": "Pigment"},
+            {"source": "Gamboge (yellow)", "target": "Pigment"},
+            {"source": "Linseed", "target": "Oil"},
+            {"source": "Coconut", "target": "Oil"},
+            {"source": "Soybean", "target": "Oil"},
+            {"source": "Oil", "target": "Resin"},
+            {"source": "Resin", "target": "Paint"},
+            {"source": "Soil", "target": "Cotton Plant"},
+            {"source": "Soil", "target": "Hemp Plant"},
+            {"source": "Soil", "target": "Flax Plant"},
+            {"source": "Cotton Plant", "target": "Sail"},
+            {"source": "Flax Plant", "target": "Sail"},
+            {"source": "Hemp Plant", "target": "Sail"},
+            {"source": "Sail", "target": "Sailing"},
+            {"source": "Hardwood", "target": "Boat"},
+            {"source": "Boat", "target": "Sailing"},
+            {"source": "Soil", "target": "Oats"},
+            {"source": "Oats", "target": "Horse"},
+            {"source": "Horse", "target": "Horse Hair"},
+            {"source": "Horse Hair", "target": "Paintbrush"},
+            {"source": "Hardwood", "target": "Wood Instruments"},
+            {"source": "Sand", "target": "Silica"},
+            {"source": "Silica", "target": "Microprocessor"},
+            {"source": "Silica", "target": "Glass"},
+            {"source": "Glass", "target": "Computer"},
+            {"source": "Glass", "target": "Cellphone"},
+            {"source": "Microprocessor", "target": "Computer"},
+            {"source": "Microprocessor", "target": "Cellphone"},
+            {"source": "Soil", "target": "Cobalt Mining"},
+            {"source": "Cobalt Mining", "target": "Cobalt"}
+
+
         ]
     }
 }
