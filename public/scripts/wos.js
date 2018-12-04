@@ -44,7 +44,7 @@ d3.json("../wos.json", function (data) {
     /* used for tracing to soil */
     function highlight(src, dest) {
 
-        src.direct = true;
+        src.direct = false;
         //initialize queue with source
         var queue = [];
         queue.push(src);
@@ -143,7 +143,7 @@ d3.json("../wos.json", function (data) {
         })
         .on("click", function(d) {
             var path = highlight(d,node_data[0]);
-            displayModal(path);
+            displayModal(path, null);
             var modal = document.getElementById('modal');
             modal.style.display = "block";          
         })
@@ -216,26 +216,50 @@ d3.json("../wos.json", function (data) {
         });
     }
 
-    function displayModal(path) {
+    function displayModal(path, parentNode) {
         // check if there are multiple children
         var hasMulti = path.filter(elm =>  elm.direct).length > 2;
-        //document.getElementById("modal-content").onclick();
-        $('modal-content').trigger();
         var row = document.getElementById("modal-row");
 
-        path.forEach((item) => {
+        if (parentNode) {
+            var block = document.createElement("div");
+
+            block.addEventListener("click", () => {
+                row.innerHTML = "";
+                displayModal(highlight(parentNode, node_data[0]), null);
+            })
+            block.addEventListener("mouseenter",() => {
+                block.style.cursor = "pointer"
+                block.style.background = "#F8F8F8"
+            })
+            block.addEventListener("mouseleave", () => {
+                block.style.background = "white"
+            })
+            block.className = `modal-cell bdr-${CATEGORY}`;
+            block.innerHTML = `<figure>
+            <img src="${parentNode.img}" style="width:100px" alt='missing' />
+                <br>
+                <h3>${parentNode.name}</h3>
+                <p align="left">Back</p>
+            </figure>
+            `
+            row.appendChild(block);
+        }
+
+        path.forEach((item, idx) => {
             // if there are multiple children then display only the direct descendents of the source
             // otherwise display all 
-            if ((hasMulti && item.direct) || !hasMulti){
+            if ((hasMulti && item.direct) || !hasMulti || idx == 0){
                 var block = document.createElement("div");
                 // clicking direct descendents shows chidren 
                 if (hasMulti && item.direct) {
                     block.addEventListener("click",() => {
                         row.innerHTML = "";
-                        displayModal(highlight(item,node_data[0]))
+                        displayModal(highlight(item,node_data[0]), path[0])
                     })
                     // change background on hover 
                     block.addEventListener("mouseenter",() => {
+                        block.style.cursor = "pointer"
                         block.style.background = "#F8F8F8"
                     })
                     block.addEventListener("mouseleave", () => {
