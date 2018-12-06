@@ -312,19 +312,17 @@ html, body {
     background-repeat: no-repeat;
 }
 
-#title {
+.wos-info {
     position: absolute;
     width: 100%;
-    top: 10%;
+    top: 15%;
     text-align: center;
-    font-size: 2em;
+}
+#title {
+    font-size: 4vh;
 }
 #name {
-    position: absolute;
-    width: 100%;
-    top: 19%;
-    text-align: center;
-    font-size: 1.3em;
+    font-size: 2.5vh;
 }
 #web {
     position: absolute;

@@ -4,7 +4,7 @@ const IMAGE_SIZE = "40";
 
 var parentDiv = d3.select("#fullpage").node();
 parWidth = parentDiv.getBoundingClientRect().width;
-parHeight = parentDiv.getBoundingClientRect().height * .7;
+parHeight = parentDiv.getBoundingClientRect().height * .75;
 
 
 var svg = d3.select("#web")
@@ -18,12 +18,12 @@ var svg = d3.select("#web")
         .id(function (d) {
             return d.name;
         })
-        .distance(10)
-        .strength(2))
-    .force("collide", d3.forceCollide(IMAGE_SIZE))
-    .force("charge", d3.forceManyBody()
-        .strength(10))
+        .distance(5))
+    .force("collide", d3.forceCollide(IMAGE_SIZE * .9))
+    .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height /2))
+    .force("y", d3.forceY(0))
+    .force("x", d3.forceX(0))
 
 d3.json("../wos.json", function (data) {
 
@@ -183,7 +183,7 @@ d3.json("../wos.json", function (data) {
         })
 
     function start(d) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        if (!d3.event.active) simulation.alphaTarget(0.1).restart();
         }
         
     function drag(d) {
