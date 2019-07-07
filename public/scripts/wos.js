@@ -51,10 +51,10 @@ d3.json("../wos.json", function (data) {
 
         //stores path
         var path = [];
+        var visited = new Set();
         path.push(src);
 
         while (queue.length != 0) {
-            var visited = new Set();
             var curr = queue.shift();
             //check if dest contains it
             if (curr.name == dest.name) {
