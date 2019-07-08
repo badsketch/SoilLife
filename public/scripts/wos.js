@@ -89,7 +89,7 @@ d3.json("../wos.json", function (data) {
             link
                 .attr("stroke-width", function(l){
                     if (path.includes(l.target))
-                        return 2;
+                        return 3;
                     else
                         return 1;
                 });
