@@ -132,7 +132,7 @@ d3.json("../wos.json", function (data) {
         .on("mouseleave", function(d) {
             //change display text back
             d3.select("#name")
-            .text(document.title);
+            .text(document.title == 'FiberFuel' ? 'Fiber & Fuel' : document.title);
             //undo expansion
             d3.select(this)
                 .transition()
