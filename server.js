@@ -90,5 +90,5 @@ app.get('/get-involved/socialmedia', function(req, res) {
 var port = process.env.PORT || 8080;
 
 app.listen(port, function() {
-    console.log('our app is running');
+    console.log(`app is running on port ${port}...`);
 });
